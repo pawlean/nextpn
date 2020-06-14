@@ -5,21 +5,62 @@
   padding: 40px;
   h1 {
     color: $dark-grey;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
   }
 }
 
-.skills li {
-  list-style-type: none;
-  border-radius: 5px;
-  border: 1px solid $pawlean;
-  padding: 10px;
-  color: $pawlean;
-  font-size: 1em;
-  display: inline-block;
-  margin: 10px;
-  &:hover {
-    background-color: $pawlean;
-    color: $white;
-    cursor: default;
+.skills {
+  text-align: center;
+  li {
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid $pawlean;
+    padding: 10px;
+    color: $pawlean;
+    font-size: 1em;
+    display: inline-block;
+    margin: 10px;
+    &:hover {
+      background-color: $pawlean;
+      color: $white;
+      cursor: default;
+    }
   }
+}
+
+.previouswork {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  text-align: center;
+  h3 {
+    color: $white;
+  }
+  img {
+    border-radius: 5%;
+    width: 150px;
+    -webkit-filter: grayscale(100%);
+  }
+  p {
+    color: $white;
+    padding-bottom: 10px;
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: none;
+    &:hover img {
+      -webkit-filter: grayscale(0%);
+    }
+  }
+}
+
+.project {
+  background-color: $pawlean;
+  padding: 20px;
+  border-radius: 2%;
+  margin: 10px;
+  height: 20em;
 }

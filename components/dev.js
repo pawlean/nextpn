@@ -15,7 +15,7 @@ function Dev() {
       <ul className={styles.skills}>
         {[
           "HTML",
-          "CSS",
+          "CSS/SCSS",
           "Javascript",
           "jQuery",
           "React",
@@ -27,11 +27,52 @@ function Dev() {
           "AWS",
           "Terraform",
           "Packer",
+          "Lambda",
           "Tailwind",
         ].map((skill) => (
           <li>{skill}</li>
         ))}
       </ul>
+
+      <h2>Recent projects</h2>
+      <div className={styles.previouswork}>
+        {[
+          {
+            title: "Ryan Kitto PT",
+            image: "https://paulinenarvas.com/Images/Projects/RYANPT.jpg",
+            link: "https://ryankitto.com/",
+            description: "PT site for Ryan's clients during COVID19",
+          },
+          {
+            title: "Pawlean.com",
+            image: "https://paulinenarvas.com/Images/Projects/pawlean.png",
+            link: "https://pawlean.com/",
+            description: "My personal blog built in NextJS",
+          },
+          {
+            title: "Inspiring Figures",
+            image: "https://paulinenarvas.com/Images/Projects/if1.png",
+            link: "https://ryankitto.com/",
+            description: "The people that you should know about",
+          },
+          {
+            title: "Food List",
+            image: "https://paulinenarvas.com/Images/Projects/foodlist.png",
+            link: "https://devpost.com/software/food-list",
+            description: "#HackMed19 Project",
+          },
+        ].map((project) => (
+          <a href={project.link}>
+            <div className={styles.project}>
+              <h3>{project.title}</h3>
+
+              <img src={project.image} />
+
+              <p>{project.description}</p>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   );
 }
