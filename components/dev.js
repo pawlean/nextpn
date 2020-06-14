@@ -62,7 +62,7 @@ function Dev() {
             description: "#HackMed19 Project",
           },
         ].map((project) => (
-          <a href={project.link}>
+          <a href={project.link} target="_blank">
             <div className={styles.project}>
               <h3>{project.title}</h3>
 
