@@ -1,4 +1,5 @@
 import Head from "next/head";
+import About from "about";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="/images/PaulineNarvas.jpg" />
+        <img src="/images/PaulineNarvas.jpg" className="profile" />
         <h1 className="title">Hi, I'm Pauline.</h1>
 
         <p className="description">
@@ -17,6 +18,8 @@ export default function Home() {
           <br></br>To summarise, I am...
         </p>
       </main>
+
+      <About />
 
       <style jsx>{`
         .container {
@@ -69,13 +72,10 @@ export default function Home() {
           font-size: 1.5rem;
         }
 
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        .profile {
+          border-radius: 50%;
+          width: 300px;
+          margin-bottom: 1rem;
         }
 
         .grid {
