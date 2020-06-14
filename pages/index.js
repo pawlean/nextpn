@@ -1,5 +1,5 @@
 import Head from "next/head";
-import About from "about";
+import Dev from "../components/dev";
 
 export default function Home() {
   return (
@@ -19,12 +19,11 @@ export default function Home() {
         </p>
       </main>
 
-      <About />
+      <Dev />
 
       <style jsx>{`
         .container {
           min-height: 100vh;
-          padding: 0 0.5rem;
           display: flex;
           flex-direction: column;
           justify-content: center;

@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+.greycontainer {
+  background-color: $grey;
+  padding: 40px;
+  h1 {
+    color: $dark-grey;
+  }
+}
+
+.skills li {
+  list-style-type: none;
+  border-radius: 5px;
+  border: 1px solid $pawlean;
+  padding: 10px;
+  color: $pawlean;
+  font-size: 1em;
+  display: inline-block;
+  margin: 10px;
+  &:hover {
+    background-color: $pawlean;
+    color: $white;
+    cursor: default;
+  }
+}
