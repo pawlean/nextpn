@@ -1,38 +1,50 @@
 import styles from "./layout.module.scss";
+import Button from "./button";
 
 function Dev() {
   return (
     <div className={styles.greycontainer}>
       <h1>Enthuastic Techie</h1>
       <p>
-        I began learning to code for fun when I was 8 years old. I formed a
-        hobby of building websites which carries on to this day - continuing to
-        bring my ideas to life by playing around with pixels on the internet.
-        Taking my love for technology and learning further, I took to the Clouds
-        and became an AWS Certified Cloud Practitioner in November 2019. I am
-        familiar with:
+        I began learning to code for fun when I was 8 years old.{" "}
+        <a
+          href="https://www.yorkshirepost.co.uk/news/people/from-high-school-musical-fansites-to-ee-developer-how-pauline-overcame-school-bullies-to-inspire-women-in-technology-1-9960344"
+          target="_blank"
+        >
+          I formed a hobby of building websites
+        </a>{" "}
+        which carries on to this day - continuing to bring my ideas to life by
+        playing around with pixels on the internet. Taking my love for
+        technology and learning further, I took to the Clouds and became an{" "}
+        <a
+          href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
+          target="_blank"
+        >
+          AWS Certified Cloud Practitioner
+        </a>{" "}
+        in November 2019. I am familiar with:
+        <ul className={styles.skills}>
+          {[
+            "HTML",
+            "CSS/SCSS",
+            "Javascript",
+            "jQuery",
+            "React",
+            "Next.js",
+            "PHP",
+            "Python",
+            "git",
+            "Wordpress",
+            "AWS",
+            "Terraform",
+            "Packer",
+            "Lambda",
+            "Tailwind",
+          ].map((skill) => (
+            <li>{skill}</li>
+          ))}
+        </ul>
       </p>
-      <ul className={styles.skills}>
-        {[
-          "HTML",
-          "CSS/SCSS",
-          "Javascript",
-          "jQuery",
-          "React",
-          "Next.js",
-          "PHP",
-          "Python",
-          "git",
-          "Wordpress",
-          "AWS",
-          "Terraform",
-          "Packer",
-          "Lambda",
-          "Tailwind",
-        ].map((skill) => (
-          <li>{skill}</li>
-        ))}
-      </ul>
 
       <h2>Recent projects</h2>
       <div className={styles.previouswork}>
@@ -41,13 +53,13 @@ function Dev() {
             title: "Ryan Kitto PT",
             image: "https://paulinenarvas.com/Images/Projects/RYANPT.jpg",
             link: "https://ryankitto.com/",
-            description: "PT site for Ryan's clients during COVID19",
+            description: "PT site for clients during COVID19",
           },
           {
             title: "Pawlean.com",
             image: "https://paulinenarvas.com/Images/Projects/pawlean.png",
             link: "https://pawlean.com/",
-            description: "My personal blog built in NextJS",
+            description: "My personal blog built on NextJS, Headless CMS",
           },
           {
             title: "Inspiring Figures",
@@ -73,6 +85,7 @@ function Dev() {
           </a>
         ))}
       </div>
+      <Button buttonLink="https://github.com/pawlean"></Button>
     </div>
   );
 }
