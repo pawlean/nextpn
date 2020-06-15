@@ -11,7 +11,7 @@
     color: $dark-grey;
   }
   p {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     text-align: justify;
     line-height: 1.5rem;
@@ -36,7 +36,8 @@
 
 .skills {
   text-align: center;
-  width: 70%;
+  width: 90%;
+  padding-top: 30px;
   li {
     list-style-type: none;
     border-radius: 5px;
@@ -70,7 +71,6 @@
   p {
     color: $white;
     padding-top: 10px;
-
     padding-bottom: 10px;
     font-size: 1rem;
     text-align: center;
@@ -107,7 +107,7 @@
     color: $dark-grey;
   }
   p {
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
     text-align: justify;
     line-height: 1.5rem;
