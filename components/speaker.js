@@ -1,4 +1,5 @@
 import styles from "./layout.module.scss";
+import Talks from "./talks";
 
 function Speaker() {
   return (
@@ -18,6 +19,7 @@ function Speaker() {
           allowfullscreen
         ></iframe>
       </div>
+      <Talks />
     </div>
   );
 }

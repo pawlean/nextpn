@@ -179,6 +179,38 @@
   width: 50%;
   margin: 0 auto;
 }
+.talksgroup {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background-color: $white;
+  padding: 10px;
+  margin-top: 10px;
+}
+.talks {
+  border: 1px dotted $pawlean;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  h3 {
+    color: $pawlean;
+    text-align: center;
+  }
+  p {
+    width: 100%;
+    text-align: center;
+  }
+  a {
+    font-weight: bold;
+    text-align: center;
+    &:hover {
+      background-color: $pawlean;
+      color: $white;
+    }
+  }
+}
+
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .previouswork {
