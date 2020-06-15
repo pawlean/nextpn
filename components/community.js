@@ -8,20 +8,39 @@ function Community() {
         Passionate about creating a better environment for future engineers, I
         actively work with communities to help bridge the inequalities in the
         tech industry, focusing speficially on females and people of colour
-        representation. For over 3 years, I've proudly worked with Code First:
-        Girls to deliver coding community courses for young women.{" "}
+        representation. For over 3 years, I've proudly worked with{" "}
+        <a href="http://twitter.com/codefirstgirls" target="_blank">
+          Code First: Girls
+        </a>
+        to deliver coding community courses for young women.{" "}
       </p>
       <p>
         With diversity and inclusion at the core of my community work, I
-        pioneered the first Women in Tech student community in Sheffield. Also,
-        as part of the MedTech Sheffield committee, I led in bringing students
-        from different backgrounds together to events, workshops and hackathons.
+        pioneered the{" "}
+        <a
+          href="https://www.facebook.com/groups/1438086499595347/about/"
+          target="_blank"
+        >
+          first Women in Tech student community
+        </a>{" "}
+        in Sheffield. Also, as part of the{" "}
+        <a href="http://facebook.com/medtechsheffield" target="_blank">
+          MedTech Sheffield
+        </a>{" "}
+        committee, I led in bringing students from different backgrounds
+        together to events, workshops and hackathons.
       </p>
       <p>
         In addition, in my role at BT, I am a part of the Gender Equality
         Network (GEN) where I regularly push initiatives at our Leeds base. I
-        have also been involved in the furtHER program as a mentor to upskill
-        young women into joining the industry.
+        have also been involved in the{" "}
+        <a
+          href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
+          target="_blank"
+        >
+          furtHER program
+        </a>{" "}
+        as a mentor to upskill young women into joining the industry.
       </p>
 
       <h2>Projects</h2>
@@ -66,12 +85,28 @@ function Community() {
       <h2>Key Contributions</h2>
       <ul>
         <li>
-          March 2016: Introducing CFG students to the hackathon scene and the
-          wider Women in Tech community.
+          March 2016: Introducing CFG students to the{" "}
+          <a
+            href="https://twitter.com/paulienuh/status/858677843362009088"
+            target="_blank"
+          >
+            hackathon
+          </a>{" "}
+          scene and the wider Women in Tech community.
         </li>
         <li>
-          Feb 2017: Collaboration with HackSheffield to take over 20 CFG
-          students to the InspireWIT conference.
+          Feb 2017: Collaboration with{" "}
+          <a href="https://www.hacksheffield.co/" target="_blank">
+            HackSheffield
+          </a>{" "}
+          to take over{" "}
+          <a
+            href="https://twitter.com/paulienuh/status/833093729858834432"
+            target="_blank"
+          >
+            20 CFG students
+          </a>{" "}
+          to the InspireWIT conference.
         </li>
         <li>
           April 2018: Efforts in organising #HackMed18 saw an increase in
@@ -81,7 +116,13 @@ function Community() {
         <li>
           March 2019: For International Women's Day, I organised an event at the
           BT office in Leeds with local Yorkshire speakers in the tech community
-          which was shared and highlighted by BT Consumer's CEO, Marc Allera.
+          which was{" "}
+          <a
+            href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
+            target="_blank"
+          >
+            shared and highlighted by BT Consumer's CEO, Marc Allera.
+          </a>
         </li>
       </ul>
     </div>
