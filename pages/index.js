@@ -28,11 +28,8 @@ export default function Home() {
       <style jsx>{`
         .container {
           min-height: 100vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
           color: #5b5b5b;
+          width: 100%;
         }
 
         main {
@@ -69,24 +66,8 @@ export default function Home() {
           border: 10px solid #a47da4;
         }
 
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
         .logo {
           height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
         }
       `}</style>
 

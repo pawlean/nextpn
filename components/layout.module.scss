@@ -163,3 +163,46 @@
   padding: 20px;
   background-color: $white;
 }
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .previouswork {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
+  .greycontainer,
+  .whitecontainer {
+    p {
+      width: 100%;
+    }
+  }
+  .key {
+    width: 100%;
+  }
+}
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .previouswork {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+  }
+  .key {
+    width: 100%;
+  }
+}
