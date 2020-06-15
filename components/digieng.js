@@ -21,7 +21,7 @@ function DigiEng() {
         </a>
         . You can also follow along my journey at BT{" "}
         <a
-          href="https://pawlean.com/category/self-development/be-part-of-progress/"
+          href="https://pawlean.com/category/self-development/bt-graduate-scheme/"
           target="_blank"
         >
           here
