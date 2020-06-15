@@ -2,7 +2,7 @@ import Head from "next/head";
 import Dev from "../components/dev";
 import DigiEng from "../components/digieng";
 import Community from "../components/community";
-
+import Creator from "../components/creator";
 export default function Home() {
   return (
     <div className="container">
@@ -22,6 +22,7 @@ export default function Home() {
       <Dev />
       <DigiEng />
       <Community />
+      <Creator />
       <style jsx>{`
         .container {
           min-height: 100vh;
