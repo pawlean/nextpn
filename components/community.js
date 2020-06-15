@@ -28,33 +28,31 @@ function Community() {
       <div className={styles.features}>
         {[
           {
-            title: "Beyond Limits Campaign",
-            image: "https://paulinenarvas.com/Images/Projects/BeyondLimits.png",
-            link: "https://www.youtube.com/watch?v=opxR4XRMDEw",
-          },
-          {
-            title: "BT Hack Day",
-            image: "https://paulinenarvas.com/Images/Projects/BTHACKDAY.png",
-            link: "https://www.youtube.com/watch?v=HE23blo7udA&t=11s",
-          },
-          {
-            title: "Campus Champions",
-            image:
-              "https://paulinenarvas.com/Images/Projects/CampusChampions.png",
-            link: "https://www.youtube.com/watch?v=WrdQGjIAEHM",
-          },
-          {
-            title: "Graduate Scheme Social Media",
-            image:
-              "https://paulinenarvas.com/Images/Projects/GradSchemeFeature.png",
+            title: "Computer Weekly shout out",
+            image: "https://i.ibb.co/4FzpMG5/Pay-It-Forward.png",
             link:
-              "https://www.linkedin.com/posts/bt_technology-activity-6610814119073329153-xoBM",
+              "https://www.computerweekly.com/video/Amali-de-Alwis-most-influential-woman-in-UK-IT-2018-winners-speech",
           },
           {
-            title: "International Women's Day 2020",
-            image: "https://paulinenarvas.com/Images/Projects/BTIWD.png",
+            title: "Online Community Engagement",
+            image: "images/projects/CFG1.png",
             link:
-              "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
+              "https://twitter.com/search?f=tweets&vertical=default&q=shefcodefirst&src=typd",
+          },
+          {
+            title: "Be Bold For Change x #shefcodefirst",
+            image: "images/projects/IWD2017.png",
+            link: "https://twitter.com/paulienuh/status/839355960615399426",
+          },
+          {
+            title: "Tech community blog posts",
+            image: "images/projects/CFG.png",
+            link: "https://pawlean.com/category/stem/tech-community/",
+          },
+          {
+            title: "#HackMed18 social media",
+            image: "images/projects/HackMed.png",
+            link: "https://twitter.com/hackmeduk/status/970601982770733056",
           },
         ].map((feature) => (
           <a href={feature.link} target="_blank">
