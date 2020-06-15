@@ -51,25 +51,25 @@ function Dev() {
         {[
           {
             title: "Ryan Kitto PT",
-            image: "https://paulinenarvas.com/Images/Projects/RYANPT.jpg",
+            image: "images/projects/RYANPT.jpg",
             link: "https://ryankitto.com/",
             description: "PT site for clients during COVID19",
           },
           {
             title: "Pawlean.com",
-            image: "https://paulinenarvas.com/Images/Projects/pawlean.png",
+            image: "images/projects/pawlean.png",
             link: "https://pawlean.com/",
             description: "My personal blog built on NextJS, Headless CMS",
           },
           {
             title: "Inspiring Figures",
-            image: "https://paulinenarvas.com/Images/Projects/if1.png",
+            image: "images/projects/InspiringFigures.png",
             link: "https://ryankitto.com/",
             description: "The people that you should know about",
           },
           {
             title: "Food List",
-            image: "https://paulinenarvas.com/Images/Projects/foodlist.png",
+            image: "images/projects/foodlist.png",
             link: "https://devpost.com/software/food-list",
             description: "#HackMed19 Project",
           },

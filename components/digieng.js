@@ -34,59 +34,56 @@ function DigiEng() {
         {[
           {
             title: "Beyond Limits Campaign",
-            image: "https://paulinenarvas.com/Images/Projects/BeyondLimits.png",
+            image: "images/projects/BeyondLimits.png",
             link: "https://www.youtube.com/watch?v=opxR4XRMDEw",
           },
           {
             title: "BT Hack Day",
-            image: "https://paulinenarvas.com/Images/Projects/BTHACKDAY.png",
+            image: "images/projects/BTHACKDAY.png",
             link: "https://www.youtube.com/watch?v=HE23blo7udA&t=11s",
           },
           {
             title: "Campus Champions",
-            image:
-              "https://paulinenarvas.com/Images/Projects/CampusChampions.png",
+            image: "images/projects/CampusChampions.png",
             link: "https://www.youtube.com/watch?v=WrdQGjIAEHM",
           },
           {
-            title: "Graduate Scheme Social Media",
-            image:
-              "https://paulinenarvas.com/Images/Projects/GradSchemeFeature.png",
+            title: "Graduate Scheme LinkedIn Video",
+            image: "images/projects/GradSchemeFeature.png",
             link:
               "https://www.linkedin.com/posts/bt_technology-activity-6610814119073329153-xoBM",
           },
           {
             title: "International Women's Day 2020",
-            image: "https://paulinenarvas.com/Images/Projects/BTIWD.png",
+            image: "images/projects/BTIWD.png",
             link:
               "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
           },
           {
             title: "HackSheffield 4.0 (Sponsored by BT)",
-            image: "https://paulinenarvas.com/Images/Projects/BeyondLimits.png",
-            link: "https://www.youtube.com/watch?v=opxR4XRMDEw",
+            image: "images/projects/HS4.jpg",
+            link: "https://youtu.be/0lEVMB8YCyk",
           },
           {
             title: "BT Early Careers: 12 Grads of Christmas",
-            image: "https://paulinenarvas.com/Images/Projects/BTHACKDAY.png",
+            image: "images/projects/Xmas.png",
             link: "https://www.youtube.com/watch?v=HE23blo7udA&t=11s",
           },
           {
             title: "BT Early Careers: Volunteering Week",
-            image:
-              "https://paulinenarvas.com/Images/Projects/CampusChampions.png",
-            link: "https://www.youtube.com/watch?v=WrdQGjIAEHM",
+            image: "images/projects/Volunteering.png",
+            link:
+              "https://www.facebook.com/BTEarlyCareers/videos/2199772790278680/",
           },
           {
             title: "BT Early Careers: Working From Home",
-            image:
-              "https://paulinenarvas.com/Images/Projects/GradSchemeFeature.png",
+            image: "images/projects/WFH.png",
             link:
-              "https://www.linkedin.com/posts/bt_technology-activity-6610814119073329153-xoBM",
+              "https://en-gb.facebook.com/BTEarlyCareers/videos/vb.97945334270/1112813405755270/?type=2&theater",
           },
           {
             title: "ELEVATE Programme Careers Talk",
-            image: "https://paulinenarvas.com/Images/Projects/BTIWD.png",
+            image: "images/projects/ELEVATE.png",
             link:
               "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
           },

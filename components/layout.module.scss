@@ -131,6 +131,7 @@
   grid-template-columns: repeat(5, 1fr);
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 10px;
   a {
     border: 0px;
     &:hover {
@@ -139,6 +140,7 @@
   }
 }
 .feature {
+  margin-bottom: 20px;
   img {
     -webkit-filter: grayscale(100%);
     width: 150px;
