@@ -80,7 +80,44 @@ function Creator() {
           ))}
         </ul>
       </p>
-
+      <h2>Projects</h2>
+      <div className={styles.features}>
+        {[
+          {
+            title: "International Women's Day 2018",
+            image: "images/projects/IWD2018.png",
+            link: "https://youtu.be/8wo5Y4l3Vpc",
+          },
+          {
+            title: "MLH Hackathons",
+            image: "images/projects/HS.jpg",
+            link: "https://www.youtube.com/watch?v=bMb1y3QWjvk",
+          },
+          {
+            title: "Students Union Tour",
+            image: "images/projects/SU.png",
+            link: "https://www.youtube.com/watch?v=qm9RgxCa6QE",
+          },
+          {
+            title: "BMS Placement Year",
+            image: "images/projects/Placements.png",
+            link:
+              "https://www.youtube.com/watch?v=kf5lpwBZqvs&list=PLkR4A7sk9JzZ1_pcvjD0ViCFZ0X_tZ5NB&index=1",
+          },
+          {
+            title: "Why be a TUoS vlogger?",
+            image: "images/projects/Vlogging.png",
+            link: "https://twitter.com/sheffielduni/status/1045704692179693568",
+          },
+        ].map((feature) => (
+          <a href={feature.link} target="_blank">
+            <div className={styles.feature}>
+              <img src={feature.image} />
+              <p>{feature.title}</p>
+            </div>
+          </a>
+        ))}
+      </div>
       <div className={styles.key}>
         <h3>Key Achievements</h3>
         <ul>

@@ -67,7 +67,7 @@ function Talks() {
                   Watch
                 </a>{" "}
                 | 🗒{" "}
-                <a href={talks.ytlink} target="_blank">
+                <a href={talks.slides} target="_blank">
                   Slides
                 </a>
               </p>
