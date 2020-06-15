@@ -10,7 +10,7 @@ function Community() {
         tech industry, focusing speficially on females and people of colour
         representation. For over 3 years, I've proudly worked with{" "}
         <a href="http://twitter.com/codefirstgirls" target="_blank">
-          Code First: Girls
+          Code First: Girls{" "}
         </a>
         to deliver coding community courses for young women.{" "}
       </p>
@@ -85,7 +85,7 @@ function Community() {
       <h2>Key Contributions</h2>
       <ul>
         <li>
-          March 2016: Introducing CFG students to the{" "}
+          <strong>March 2016:</strong> Introducing CFG students to the{" "}
           <a
             href="https://twitter.com/paulienuh/status/858677843362009088"
             target="_blank"
@@ -95,7 +95,7 @@ function Community() {
           scene and the wider Women in Tech community.
         </li>
         <li>
-          Feb 2017: Collaboration with{" "}
+          <strong>Feb 2017:</strong> Collaboration with{" "}
           <a href="https://www.hacksheffield.co/" target="_blank">
             HackSheffield
           </a>{" "}
@@ -109,14 +109,14 @@ function Community() {
           to the InspireWIT conference.
         </li>
         <li>
-          April 2018: Efforts in organising #HackMed18 saw an increase in
-          attendance of women (47%) and students from different backgrounds
-          including Humanities, Finance and Arts.
+          <strong>April 2018:</strong> Efforts in organising #HackMed18 saw an
+          increase in attendance of women (47%) and students from different
+          backgrounds including Humanities, Finance and Arts.
         </li>
         <li>
-          March 2019: For International Women's Day, I organised an event at the
-          BT office in Leeds with local Yorkshire speakers in the tech community
-          which was{" "}
+          <strong>March 2019:</strong> For International Women's Day, I
+          organised an event at the BT office in Leeds with local Yorkshire
+          speakers in the tech community which was{" "}
           <a
             href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
             target="_blank"
