@@ -83,48 +83,50 @@ function Community() {
         ))}
       </div>
       <h2>Key Contributions</h2>
-      <ul>
-        <li>
-          <strong>March 2016:</strong> Introducing CFG students to the{" "}
-          <a
-            href="https://twitter.com/paulienuh/status/858677843362009088"
-            target="_blank"
-          >
-            hackathon
-          </a>{" "}
-          scene and the wider Women in Tech community.
-        </li>
-        <li>
-          <strong>Feb 2017:</strong> Collaboration with{" "}
-          <a href="https://www.hacksheffield.co/" target="_blank">
-            HackSheffield
-          </a>{" "}
-          to take over{" "}
-          <a
-            href="https://twitter.com/paulienuh/status/833093729858834432"
-            target="_blank"
-          >
-            20 CFG students
-          </a>{" "}
-          to the InspireWIT conference.
-        </li>
-        <li>
-          <strong>April 2018:</strong> Efforts in organising #HackMed18 saw an
-          increase in attendance of women (47%) and students from different
-          backgrounds including Humanities, Finance and Arts.
-        </li>
-        <li>
-          <strong>March 2019:</strong> For International Women's Day, I
-          organised an event at the BT office in Leeds with local Yorkshire
-          speakers in the tech community which was{" "}
-          <a
-            href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
-            target="_blank"
-          >
-            shared and highlighted by BT Consumer's CEO, Marc Allera.
-          </a>
-        </li>
-      </ul>
+      <div className={styles.key}>
+        <ul>
+          <li>
+            <strong>March 2016:</strong> Introducing CFG students to the{" "}
+            <a
+              href="https://twitter.com/paulienuh/status/858677843362009088"
+              target="_blank"
+            >
+              hackathon
+            </a>{" "}
+            scene and the wider Women in Tech community.
+          </li>
+          <li>
+            <strong>Feb 2017:</strong> Collaboration with{" "}
+            <a href="https://www.hacksheffield.co/" target="_blank">
+              HackSheffield
+            </a>{" "}
+            to take over{" "}
+            <a
+              href="https://twitter.com/paulienuh/status/833093729858834432"
+              target="_blank"
+            >
+              20 CFG students
+            </a>{" "}
+            to the InspireWIT conference.
+          </li>
+          <li>
+            <strong>April 2018:</strong> Efforts in organising #HackMed18 saw an
+            increase in attendance of women (47%) and students from different
+            backgrounds including Humanities, Finance and Arts.
+          </li>
+          <li>
+            <strong>March 2019:</strong> For International Women's Day, I
+            organised an event at the BT office in Leeds with local Yorkshire
+            speakers in the tech community which was{" "}
+            <a
+              href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
+              target="_blank"
+            >
+              shared and highlighted by BT Consumer's CEO, Marc Allera.
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

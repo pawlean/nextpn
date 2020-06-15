@@ -26,7 +26,6 @@
     }
   }
   ul {
-    width: 70%;
     margin: 0 auto;
     text-align: left;
     li {
@@ -156,4 +155,11 @@
     font-size: 0.9em;
     line-height: 1rem;
   }
+}
+.key {
+  border: 1px dotted $pawlean;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $white;
 }
