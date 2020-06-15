@@ -125,6 +125,16 @@
     width: 100%;
     max-width: 700px;
   }
+  ul {
+    margin: 0 auto;
+    text-align: left;
+    li {
+      margin-bottom: 15px;
+    }
+  }
+  .key {
+    background-color: $grey;
+  }
 }
 
 .features {

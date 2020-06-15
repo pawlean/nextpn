@@ -82,8 +82,9 @@ function Community() {
           </a>
         ))}
       </div>
-      <h2>Key Contributions</h2>
       <div className={styles.key}>
+        <h3>Key Contributions</h3>
+
         <ul>
           <li>
             <strong>March 2016:</strong> Introducing CFG students to the{" "}

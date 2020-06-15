@@ -55,7 +55,11 @@ function Creator() {
           YouTube
         </a>{" "}
         and have worked with different people on communicating messages across
-        to my global auidence.
+        to my global auidence. For example, I built{" "}
+        <a href="https://inspiringfigures.co" target="_blank">
+          Inspiring Figures
+        </a>{" "}
+        to share inspirational figures' stories from around the world.
       </p>
       <p>
         Creating content has developed my skills and knowledge in:
@@ -71,12 +75,32 @@ function Creator() {
             "SEO",
             "Creating podcasts",
             "Blogging",
-            "Content creation",
           ].map((skill) => (
             <li>{skill}</li>
           ))}
         </ul>
       </p>
+
+      <div className={styles.key}>
+        <h3>Key Achievements</h3>
+        <ul>
+          <li>Improved engagement from building a strong online presence</li>
+          <li>
+            Being a positive brand ambassador for sponsored content with
+            successful referrals{" "}
+          </li>
+          <li>
+            Advocating the power of blogging and social media on the radio,
+            conferences and events, inspiring others to create
+          </li>
+          <li>
+            Overwhelming support on social media - as shown on{" "}
+            <a href="https://www.buymeacoffee.com/pawlean" target="_blank">
+              BuyMeACoffee
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
