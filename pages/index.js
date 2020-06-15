@@ -3,6 +3,7 @@ import Dev from "../components/dev";
 import DigiEng from "../components/digieng";
 import Community from "../components/community";
 import Creator from "../components/creator";
+import Speaker from "../components/speaker";
 export default function Home() {
   return (
     <div className="container">
@@ -23,6 +24,7 @@ export default function Home() {
       <DigiEng />
       <Community />
       <Creator />
+      <Speaker />
       <style jsx>{`
         .container {
           min-height: 100vh;

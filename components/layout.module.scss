@@ -175,6 +175,10 @@
   padding: 20px;
   background-color: $white;
 }
+.videoWrapper {
+  width: 50%;
+  margin: 0 auto;
+}
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .previouswork {
