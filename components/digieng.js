@@ -3,7 +3,7 @@ import styles from "./layout.module.scss";
 function DigiEng() {
   return (
     <div className={styles.whitecontainer}>
-      <h1>Digital Engineering Graduate</h1>
+      <h1>📱 Digital Engineering Graduate</h1>
       <p>
         In September 2018, I joined BT's exciting Graduate Scheme working in the
         Digital Engineering team. Lasting 2 years, this development programme

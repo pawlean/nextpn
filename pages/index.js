@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Dev from "../components/dev";
 import DigiEng from "../components/digieng";
+import Community from "../components/community";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 
       <Dev />
       <DigiEng />
+      <Community />
 
       <style jsx>{`
         .container {
