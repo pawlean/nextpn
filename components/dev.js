@@ -64,7 +64,7 @@ function Dev() {
           {
             title: "Inspiring Figures",
             image: "images/projects/InspiringFigures.png",
-            link: "https://ryankitto.com/",
+            link: "https://inspiringfigures.co/",
             description: "The people that you should know about",
           },
           {

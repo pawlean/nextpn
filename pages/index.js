@@ -10,7 +10,6 @@ export default function Home() {
         <title>Pauline P. Narvas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <img src="/images/PaulineNarvas.jpg" className="profile" />
         <h1 className="title">Hi, I'm Pauline.</h1>
@@ -20,11 +19,9 @@ export default function Home() {
           <br></br>To summarise, I am a...
         </p>
       </main>
-
       <Dev />
       <DigiEng />
       <Community />
-
       <style jsx>{`
         .container {
           min-height: 100vh;
@@ -71,7 +68,6 @@ export default function Home() {
           height: 1em;
         }
       `}</style>
-
       <style jsx global>{`
         html,
         body {
