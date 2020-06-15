@@ -1,3 +1,5 @@
+import { Twitter, LinkedIn, Instagram, Email } from "../components/socialmedia";
+
 function MyApp({ Component, pageProps }) {
   return (
     <div>
@@ -5,15 +7,18 @@ function MyApp({ Component, pageProps }) {
       <footer>
         <div className="social">
           <a href="http://twitter.com/paulienuh" target="_blank">
-            @paulienuh
+            <Twitter />
           </a>
-          |
+
           <a href="http://linkedin.com/in/pnarvas" target="_blank">
-            @pnarvas
+            <LinkedIn />
           </a>
-          |
+
           <a href="http://instagram.com/paw.lean" target="_blank">
-            @pawlean
+            <Instagram />
+          </a>
+          <a href="mailto:pauline@paulinenarvas.com" target="_blank">
+            <Email />
           </a>
         </div>
       </footer>
