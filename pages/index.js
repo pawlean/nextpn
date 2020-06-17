@@ -72,6 +72,7 @@ export default function Home() {
           border-radius: 50%;
           max-width: 300px;
           width: 100%;
+          object-fit: cover;
           height: auto;
           margin-bottom: 1rem;
           border: 10px solid #a47da4;
