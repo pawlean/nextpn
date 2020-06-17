@@ -13,6 +13,18 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-105893238-1"
+        />
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-105893238-1');`}
+        </script>
+
         <meta
           property="og:title"
           content="Pauline P. Narvas | People also search for: Powerhouse"
