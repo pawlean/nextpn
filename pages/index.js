@@ -13,6 +13,40 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
+        <meta
+          property="og:title"
+          content="Pauline P. Narvas | People also search for: Powerhouse"
+        />
+        <meta
+          property="og:type"
+          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+        />
+        <meta property="og:url" content="https://paulinenarvas.com" />
+        <meta
+          property="og:image"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
+        />
+        <meta name="viewport" content="width=device-width" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@paulienuh" />
+        <meta name="twitter:creator" content="@paulienuh" />
+        <meta
+          name="twitter:title"
+          content="Pauline P. Narvas | People also search for: Powerhouse"
+        />
+        <meta
+          name="twitter:description"
+          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+        />
+        <meta
+          name="twitter:image"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
+        />
+        <meta name="twitter:image:alt" content="Pauline P. Narvas" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
         <title>Pauline P. Narvas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
