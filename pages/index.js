@@ -73,7 +73,8 @@ export default function Home() {
 
         .profile {
           border-radius: 50%;
-          width: 300px;
+          max-width: 300px;
+          width: 100%;
           height: auto;
           margin-bottom: 1rem;
           border: 10px solid #a47da4;
