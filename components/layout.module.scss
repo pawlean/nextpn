@@ -199,12 +199,6 @@
     grid-template-rows: auto;
     text-align: center;
   }
-
-  .features {
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 10px;
-  }
   .greycontainer,
   .whitecontainer {
     p {
@@ -218,7 +212,6 @@
     width: 100%;
     padding: 0px;
   }
-
   .videoWrapper {
     width: 100%;
   }
@@ -233,11 +226,6 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     text-align: center;
-  }
-
-  .features {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 100%;
   }
   .greycontainer,
   .whitecontainer {
@@ -268,12 +256,6 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     text-align: center;
-  }
-
-  .features {
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    gap: 10px;
   }
   .videoWrapper {
     width: 100%;
