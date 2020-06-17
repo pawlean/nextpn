@@ -16,10 +16,10 @@ export default function Home() {
         <title>Pauline P. Narvas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main>
         <img src="/images/PaulineNarvas.jpg" className="profile" />
         <h1 className="title">Hi, I'm Pauline.</h1>
-
         <p className="description">
           People also call me{" "}
           <a href="/PaulineNarvasInsights.pdf" target="_blank">
@@ -28,6 +28,7 @@ export default function Home() {
           .<br></br>To summarise, I am a...
         </p>
       </main>
+
       <Dev />
       <DigiEng />
       <Community />
@@ -37,13 +38,13 @@ export default function Home() {
       <Hear />
       <Features />
       <Collab />
+
       <style jsx>{`
         .container {
           min-height: 100vh;
           color: #5b5b5b;
           width: 100%;
         }
-
         main {
           padding: 6rem 0;
           flex: 1;
@@ -52,7 +53,6 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-
         .title {
           margin: 0;
           padding-top: 10px;
@@ -60,17 +60,14 @@ export default function Home() {
           font-size: 3rem;
           color: #000;
         }
-
         .title,
         .description {
           text-align: center;
         }
-
         .description {
           line-height: 1.5;
           font-size: 1.5rem;
         }
-
         .profile {
           border-radius: 50%;
           max-width: 300px;
@@ -79,7 +76,6 @@ export default function Home() {
           margin-bottom: 1rem;
           border: 10px solid #a47da4;
         }
-
         .logo {
           height: 1em;
         }
@@ -91,7 +87,13 @@ export default function Home() {
         a:hover {
           border-bottom: 1px solid #a47da4;
         }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          .profile {
+            max-width: auto;
+          }
+        }
       `}</style>
+
       <style jsx global>{`
         html,
         body {

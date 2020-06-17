@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./layout.module.scss";
+
 function Features() {
   const [show, setShow] = useState(false);
   const [show_podcast, setShow_pod] = useState(false);

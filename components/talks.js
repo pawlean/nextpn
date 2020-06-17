@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import styles from "./layout.module.scss";
 
 function Talks() {
   const [show, setShow] = useState(false);
-
   return (
     <div>
       <span onClick={() => setShow(!show)}>
         <button>Previous talks &#10549;</button>
       </span>
       {show && (
-        <div className={styles.talksgroup}>
+        <div className="talksgroup">
           {[
             {
               title: "Nevertheless, I persisted",
@@ -58,7 +56,7 @@ function Talks() {
               slides: "https://paulinenarvas.com/talks/diversity.pdf",
             },
           ].map((talks) => (
-            <div className={styles.talks}>
+            <div className="talks">
               <h3>{talks.title}</h3>
               <p>{talks.description}</p>
               <p>
@@ -75,6 +73,7 @@ function Talks() {
           ))}
         </div>
       )}
+
       <style jsx>
         {`
           button {
@@ -90,6 +89,42 @@ function Talks() {
           button:hover {
             background-color: #836883;
             cursor: pointer;
+          }
+          .talksgroup {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+          }
+          .talks {
+            border: 1px dotted #a47da4;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+          }
+          h3 {
+            color: #a47da4;
+            text-align: center;
+          }
+          p {
+            width: 100%;
+            text-align: center;
+          }
+          a {
+            font-weight: bold;
+            text-align: center;
+          }
+          a:hover {
+            background-color: #a47da4;
+            color: #fff;
+          }
+          @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+            .talksgroup {
+              grid-template-columns: 1fr;
+            }
           }
         `}
       </style>

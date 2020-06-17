@@ -9,15 +9,15 @@ const Twitter = () => (
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
   >
-    <style>
-      {`.socialmedia {
+    <style jsx>
+      {`
+        .socialmedia {
           width: 30px;
           margin-left: 20px;
-      }
-      .socialmedia:hover {
-        fill: #836883;
-      }
-      
+        }
+        .socialmedia:hover {
+          fill: #836883;
+        }
       `}
     </style>
     <path

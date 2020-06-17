@@ -1,5 +1,6 @@
 @import "./variables.scss";
 
+/* Container styling */
 .greycontainer {
   background-color: $grey;
   padding: 40px;
@@ -33,71 +34,14 @@
       margin-bottom: 15px;
     }
   }
-}
-
-.skills {
-  text-align: center;
-  width: 90%;
-  padding-top: 30px;
-  li {
-    list-style-type: none;
-    border-radius: 5px;
-    border: 1px solid $pawlean;
-    padding: 10px;
-    color: $pawlean;
-    font-size: 1em;
-    display: inline-block;
-    margin: 10px;
-    &:hover {
-      background-color: $pawlean;
-      color: $white;
-      cursor: default;
-    }
+  .key {
+    border: 1px dotted $pawlean;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: $white;
   }
 }
-
-.previouswork {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  text-align: center;
-  h3 {
-    color: $white;
-  }
-  img {
-    border-radius: 5%;
-    width: 150px;
-    -webkit-filter: grayscale(100%);
-  }
-  p {
-    color: $white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 1rem;
-    text-align: center;
-    width: 100%;
-  }
-  a {
-    text-decoration: none;
-    border-bottom: 0px;
-    &:hover {
-      border-bottom: 0px;
-
-      img {
-        -webkit-filter: grayscale(0%);
-      }
-    }
-  }
-}
-
-.project {
-  background-color: $pawlean;
-  padding: 20px;
-  border-radius: 2%;
-  margin: 10px;
-  height: 20em;
-}
-
 .whitecontainer {
   background-color: $white;
   padding: 40px;
@@ -137,9 +81,73 @@
   }
   .key {
     background-color: $grey;
+    border: 1px dotted $pawlean;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
   }
 }
+/* Skill list, Previous Work */
+.skills {
+  text-align: center;
+  width: 90%;
+  padding-top: 30px;
+  li {
+    list-style-type: none;
+    border-radius: 5px;
+    border: 1px solid $pawlean;
+    padding: 10px;
+    color: $pawlean;
+    font-size: 1em;
+    display: inline-block;
+    margin: 10px;
+    &:hover {
+      background-color: $pawlean;
+      color: $white;
+      cursor: default;
+    }
+  }
+}
+.previouswork {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  text-align: center;
+  h3 {
+    color: $white;
+  }
+  img {
+    border-radius: 5%;
+    width: 150px;
+    -webkit-filter: grayscale(100%);
+  }
+  p {
+    color: $white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: 0px;
+    &:hover {
+      border-bottom: 0px;
 
+      img {
+        -webkit-filter: grayscale(0%);
+      }
+    }
+  }
+}
+.project {
+  background-color: $pawlean;
+  padding: 20px;
+  border-radius: 2%;
+  margin: 10px;
+  height: 20em;
+}
 .features {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -172,47 +180,10 @@
     width: 90%;
   }
 }
-.key {
-  border: 1px dotted $pawlean;
-  width: 50%;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: $white;
-}
+
 .videoWrapper {
   width: 50%;
   margin: 0 auto;
-}
-.talksgroup {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  background-color: $white;
-  padding: 10px;
-  margin-top: 10px;
-}
-.talks {
-  border: 1px dotted $pawlean;
-  border-radius: 5px;
-  padding: 10px;
-  width: 100%;
-  h3 {
-    color: $pawlean;
-    text-align: center;
-  }
-  p {
-    width: 100%;
-    text-align: center;
-  }
-  a {
-    font-weight: bold;
-    text-align: center;
-    &:hover {
-      background-color: $pawlean;
-      color: $white;
-    }
-  }
 }
 
 /* Portrait and Landscape */
@@ -234,19 +205,17 @@
     p {
       width: 100%;
     }
+    .key {
+      width: 100%;
+    }
   }
-  .key {
-    width: 100%;
-  }
+
   .videoWrapper {
     width: 100%;
   }
   .skills {
     width: 100%;
     padding: 0px;
-  }
-  .talksgroup {
-    grid-template-columns: 1fr;
   }
 }
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
@@ -264,7 +233,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
   }
-  .key {
-    width: 100%;
+  .greycontainer,
+  .whitecontainer {
+    .key {
+      width: 100%;
+    }
   }
 }
