@@ -75,22 +75,23 @@ function Talks() {
           ))}
         </div>
       )}
-      <style>
+      <style jsx>
         {`
           button {
-              background-color: #a47da4;
-              padding: 20px;
-              border: 0px;
-              color: white;
-              font-size: 12pt;
-              border-radius: 5px;
-              font-weight: normal;
-              margin-top: 30px;
+            background-color: #a47da4;
+            padding: 20px;
+            border: 0px;
+            color: white;
+            font-size: 12pt;
+            border-radius: 5px;
+            font-weight: normal;
+            margin-top: 30px;
           }
           button:hover {
-              background-color: #836883;
-              cursor: pointer;
-          }`}
+            background-color: #836883;
+            cursor: pointer;
+          }
+        `}
       </style>
     </div>
   );

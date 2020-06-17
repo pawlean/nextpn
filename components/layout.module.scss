@@ -245,6 +245,9 @@
     width: 100%;
     padding: 0px;
   }
+  .talksgroup {
+    grid-template-columns: 1fr;
+  }
 }
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
 
