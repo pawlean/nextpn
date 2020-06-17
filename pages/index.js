@@ -4,6 +4,11 @@ import DigiEng from "../components/digieng";
 import Community from "../components/community";
 import Creator from "../components/creator";
 import Speaker from "../components/speaker";
+import Recognition from "../components/recognition";
+import Hear from "../components/hear";
+import Features from "../components/features";
+import Collab from "../components/collab";
+
 export default function Home() {
   return (
     <div className="container">
@@ -16,8 +21,11 @@ export default function Home() {
         <h1 className="title">Hi, I'm Pauline.</h1>
 
         <p className="description">
-          People also call me Powerhouse.
-          <br></br>To summarise, I am a...
+          People also call me{" "}
+          <a href="/PaulineNarvasInsights.pdf" target="_blank">
+            Powerhouse
+          </a>
+          .<br></br>To summarise, I am a...
         </p>
       </main>
       <Dev />
@@ -25,6 +33,10 @@ export default function Home() {
       <Community />
       <Creator />
       <Speaker />
+      <Recognition />
+      <Hear />
+      <Features />
+      <Collab />
       <style jsx>{`
         .container {
           min-height: 100vh;
@@ -69,6 +81,14 @@ export default function Home() {
 
         .logo {
           height: 1em;
+        }
+        a {
+          color: #a47da4;
+          border-bottom: 1px dotted #a47da4;
+          text-decoration: none;
+        }
+        a:hover {
+          border-bottom: 1px solid #a47da4;
         }
       `}</style>
       <style jsx global>{`
