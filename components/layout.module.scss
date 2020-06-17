@@ -209,15 +209,16 @@
       width: 100%;
     }
   }
-
-  .videoWrapper {
-    width: 100%;
-  }
   .skills {
     width: 100%;
     padding: 0px;
   }
+
+  .videoWrapper {
+    width: 100%;
+  }
 }
+
 /* ----------- iPad 3, 4 and Pro 9.7" ----------- */
 
 /* Portrait and Landscape */
@@ -235,8 +236,41 @@
   }
   .greycontainer,
   .whitecontainer {
+    p {
+      width: 100%;
+    }
     .key {
       width: 100%;
     }
+  }
+}
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .greycontainer,
+  .whitecontainer {
+    p {
+      width: 100%;
+    }
+    .key {
+      width: 100%;
+    }
+  }
+  .skills {
+    width: 100%;
+  }
+  .previouswork {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  .features {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+  }
+  .videoWrapper {
+    width: 100%;
   }
 }

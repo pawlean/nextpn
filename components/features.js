@@ -229,6 +229,21 @@ function Features() {
             width: 100%;
           }
         }
+        /* Landscape */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+          img {
+            width: 50%;
+          }
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+          img {
+            width: 50%;
+          }
+          .Interviews {
+            grid-template-columns: 1fr;
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );
