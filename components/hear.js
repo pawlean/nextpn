@@ -32,43 +32,15 @@ function Hear() {
 
       <style jsx>{`
         .twitterContainer {
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           margin: 0 auto;
           width: 100%;
         }
         .twitter-embed {
           margin: 0 auto;
-        }
-        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-          .twitterContainer {
-            display: grid;
-            grid-template-columns: 1fr;
-          }
-        }
-        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-          .twitterContainer {
-            display: inline;
-            width: 100%;
-          }
-          .twitter-embed {
-            max-width: 100%;
-          }
-        }
-        /* Landscape */
-        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-          .twitterContainer {
-            display: grid;
-            grid-template-columns: 1fr;
-            margin: 0 auto;
-          }
-        }
-        /* Portrait and Landscape */
-        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-          .twitterContainer {
-            display: inline;
-            width: 100%;
-          }
+          width: 500px;
         }
       `}</style>
     </div>
