@@ -221,6 +221,13 @@ function Features() {
           color: #836883;
           border-bottom: 1px solid #836883;
         }
+        /* Portrait and Landscape */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+          .Interviews {
+            grid-template-columns: 1fr;
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );
