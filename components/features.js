@@ -218,8 +218,8 @@ function Features() {
           border-bottom: 1px dotted white;
         }
         a:hover {
-          color: #836883;
-          border-bottom: 1px solid #836883;
+          color: #f2d9f3;
+          border-bottom: 1px solid #f2d9f3;
         }
         /* Portrait and Landscape */
         @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
