@@ -78,7 +78,7 @@ function Features() {
                     "https://www.projectprep.com/blog/2017/5/31/womein-in-tech-pauline-narvas?utm_content=bufferae00c&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
                 },
               ].map((feature) => (
-                <ul className={styles.feature}>
+                <ul className={styles.interviewlist}>
                   <li>
                     <a href={feature.link} target="_blank">
                       {feature.title}
@@ -138,7 +138,7 @@ function Features() {
                     "https://www.birchenallhowden.co.uk/podcasts/unravelling-technology-ep-078-women-in-stem",
                 },
               ].map((feature) => (
-                <ul className={styles.feature}>
+                <ul className={styles.interviewlist}>
                   <li>
                     <a href={feature.link} target="_blank">
                       {feature.title}
@@ -180,7 +180,7 @@ function Features() {
                     "https://twitter.com/paulienuh/status/856953783234023424",
                 },
               ].map((feature) => (
-                <ul className={styles.feature}>
+                <ul className={styles.interviewlist}>
                   <li>
                     <a href={feature.link} target="_blank">
                       {feature.title}
@@ -196,19 +196,18 @@ function Features() {
       <style jsx>{`
         img {
           -webkit-filter: grayscale(100%);
+          width: 300px;
         }
         img:hover {
           -webkit-filter: grayscale(0%);
         }
         .Interviews {
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          width: 60%;
-          margin: 0 auto;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           grid-gap: 10px;
         }
         .InterviewBlock {
-          margin: 0 auto;
           background: #a47da4;
           color: white;
           padding: 10px;
@@ -221,28 +220,6 @@ function Features() {
         a:hover {
           color: #f2d9f3;
           border-bottom: 1px solid #f2d9f3;
-        }
-        /* Portrait and Landscape */
-        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-          .Interviews {
-            grid-template-columns: 1fr;
-            width: 100%;
-          }
-        }
-        /* Landscape */
-        @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-          img {
-            width: 50%;
-          }
-        }
-        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-          img {
-            width: 50%;
-          }
-          .Interviews {
-            grid-template-columns: 1fr;
-            width: 100%;
-          }
         }
       `}</style>
     </div>
