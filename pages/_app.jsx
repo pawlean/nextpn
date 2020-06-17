@@ -1,9 +1,10 @@
 import { Twitter, LinkedIn, Instagram, Email } from "../components/socialmedia";
-
+import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Component {...pageProps} />
+      <ScrollUpButton />
       <footer>
         <div className="social">
           <a href="http://twitter.com/paulienuh" target="_blank">

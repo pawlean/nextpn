@@ -4,13 +4,13 @@ const Twitter = () => (
     focusable="false"
     data-prefix="fab"
     data-icon="twitter"
-    class="svg-inline--fa fa-twitter fa-w-16"
+    class="svg-inline--fa fa-twitter fa-w-16 socialmedia"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
   >
     <style>
-      {`svg {
+      {`.socialmedia {
           width: 30px;
           margin-left: 20px;
       }
@@ -34,7 +34,7 @@ const LinkedIn = () => (
     focusable="false"
     data-prefix="fab"
     data-icon="linkedin"
-    class="svg-inline--fa fa-linkedin fa-w-14"
+    class="svg-inline--fa fa-linkedin fa-w-14 socialmedia"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
@@ -52,7 +52,7 @@ const Instagram = () => (
     focusable="false"
     data-prefix="fab"
     data-icon="instagram"
-    class="svg-inline--fa fa-instagram fa-w-14"
+    class="svg-inline--fa fa-instagram fa-w-14 socialmedia"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
@@ -70,7 +70,7 @@ const Email = () => (
     focusable="false"
     data-prefix="fas"
     data-icon="envelope"
-    class="svg-inline--fa fa-envelope fa-w-16"
+    class="svg-inline--fa fa-envelope fa-w-16 socialmedia"
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
