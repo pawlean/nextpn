@@ -47,7 +47,9 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        <title>Pauline P. Narvas</title>
+        <title>
+          Pauline P. Narvas | Techie, Creator, Community Builder, Advocate
+        </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
