@@ -149,10 +149,9 @@
   height: 20em;
 }
 .features {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin: 0 auto;
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 10px;
   a {
     border: 0px;
@@ -162,6 +161,7 @@
   }
 }
 .feature {
+  width: 200px;
   margin-bottom: 20px;
   img {
     -webkit-filter: grayscale(100%);

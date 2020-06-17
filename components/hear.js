@@ -35,7 +35,7 @@ function Hear() {
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           margin: 0 auto;
-          width: 70%;
+          width: 100%;
         }
         .twitter-embed {
           margin: 0 auto;
