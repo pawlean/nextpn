@@ -150,7 +150,7 @@ function Features() {
         </div>
         <div>
           <span onClick={() => setShow_other(!show_other)}>
-            <img src="images/Other.png" />
+            <img src="images/other.png" />
           </span>
           {show_other && (
             <div className="InterviewBlock">
