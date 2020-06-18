@@ -26,7 +26,7 @@ function DigiEng() {
         </a>
         .
       </p>
-      <img src="https://paulinenarvas.com/Images/Main/grad_scheme.png" />
+      <img src="images/main/grad_scheme.png" />
 
       <h2>Projects</h2>
       <div className={styles.features}>
