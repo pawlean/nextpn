@@ -1,6 +1,6 @@
 # nextpn
 
-This project looks into rebuilding my portfolio website, PaulineNarvas.com. I first built my site in 2017 in HTML, CSS, Javascript and Bootstrap. [You can find the repo here](https://github.com/pawlean/paulinenarvas)
+This project looks into rebuilding my portfolio website, [PaulineNarvas.com](https://PaulineNarvas.com). I first built my site in 2017 in HTML, CSS, Javascript and Bootstrap. [You can find the repo here.](https://github.com/pawlean/paulinenarvas)
 
 This did the job, but as I started learning more about other frameworks like React and Next.js, and itching to do a little side project, I decided to do this!
 
@@ -8,6 +8,7 @@ This did the job, but as I started learning more about other frameworks like Rea
 
 - Next.js
 - React
+- Sass / CSS modules
 - Vercel (for deployment)
 
 # Blog Post
