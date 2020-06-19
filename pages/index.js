@@ -29,17 +29,20 @@ export default function Home() {
           property="og:title"
           content="Pauline P. Narvas | People also search for: Powerhouse"
         />
-        <meta
-          property="og:type"
-          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
-        />
+        <meta property="og:type" content="website" />
         <meta property="og:url" content="https://paulinenarvas.com" />
         <meta
           property="og:image"
           content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
         />
-        <meta name="viewport" content="width=device-width" />
+        <meta property="og:image:width" content="677" />
+        <meta property="og:image:height" content="353" />
+        <meta
+          property="og:description"
+          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+        />
 
+        <meta name="viewport" content="width=device-width" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@paulienuh" />
         <meta name="twitter:creator" content="@paulienuh" />
