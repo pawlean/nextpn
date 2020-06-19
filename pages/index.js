@@ -59,9 +59,29 @@ export default function Home() {
           content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
         />
         <meta name="twitter:image:alt" content="Pauline P. Narvas" />
-        <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a47da4" />
+        <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#ffffff" />
+
         <title>
           Pauline P. Narvas | Techie, Creator, Community Builder, Advocate
         </title>
