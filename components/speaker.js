@@ -11,6 +11,7 @@ function Speaker() {
       </p>
       <div className={styles.videoWrapper}>
         <iframe
+          title="Pauline's Speaking Gigs"
           width="100%"
           height="615"
           src="https://www.youtube.com/embed/videoseries?list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG"
