@@ -10,7 +10,7 @@ function Features() {
     <div className={styles.whitecontainer}>
       <h1>👋🏼 Features</h1>
       <div className="Interviews">
-        <div>
+        <div className="featureimage">
           <span onClick={() => setShow(!show)}>
             <LazyLoadImage src="images/Interviews.png" alt="Interviews" />
           </span>
@@ -100,7 +100,7 @@ function Features() {
             </div>
           )}
         </div>
-        <div>
+        <div className="featureimage">
           <span onClick={() => setShow_pod(!show_podcast)}>
             <LazyLoadImage src="images/podcast.png" alt="Podcasts" />
           </span>
@@ -170,7 +170,7 @@ function Features() {
             </div>
           )}
         </div>
-        <div>
+        <div className="featureimage">
           <span onClick={() => setShow_other(!show_other)}>
             <LazyLoadImage src="images/other.png" alt="Other" />
           </span>
@@ -225,11 +225,11 @@ function Features() {
       </div>
 
       <style jsx>{`
-        img {
+        .featureimage {
           -webkit-filter: grayscale(100%);
           width: 300px;
         }
-        img:hover {
+        .featureimage:hover {
           -webkit-filter: grayscale(0%);
         }
         .Interviews {
