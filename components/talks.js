@@ -61,7 +61,11 @@ function Talks() {
               <p>{talks.description}</p>
               <p>
                 🎬{" "}
-                <a href={talks.ytlink} target="_blank">
+                <a
+                  href={talks.ytlink}
+                  target="_blank"
+                  aria-describedby="new-window-1"
+                >
                   Watch{" "}
                   <img
                     src="/images/main/external.svg"
@@ -70,7 +74,11 @@ function Talks() {
                   />
                 </a>{" "}
                 | 🗒{" "}
-                <a href={talks.slides} target="_blank">
+                <a
+                  href={talks.slides}
+                  target="_blank"
+                  aria-describedby="new-window-1"
+                >
                   Slides{" "}
                   <img
                     src="/images/main/external.svg"

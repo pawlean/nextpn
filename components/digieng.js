@@ -99,7 +99,11 @@ function DigiEng() {
               "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
           },
         ].map((feature) => (
-          <a href={feature.link} target="_blank">
+          <a
+            href={feature.link}
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>

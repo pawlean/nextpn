@@ -104,7 +104,11 @@ function Community() {
             link: "https://twitter.com/hackmeduk/status/970601982770733056",
           },
         ].map((feature) => (
-          <a href={feature.link} target="_blank">
+          <a
+            href={feature.link}
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
