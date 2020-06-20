@@ -17,7 +17,7 @@ function Speaker() {
           src="https://www.youtube.com/embed/videoseries?list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG"
           frameborder="0"
           allow="autoplay; encrypted-media"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <Talks />
