@@ -14,21 +14,41 @@ function MyApp({ Component, pageProps }) {
       <ScrollUpButton />
       <header>
         <div className="social">
-          <a href="http://twitter.com/paulienuh" target="_blank">
+          <a
+            href="http://twitter.com/paulienuh"
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <Twitter />
           </a>
 
-          <a href="http://linkedin.com/in/pnarvas" target="_blank">
+          <a
+            href="http://linkedin.com/in/pnarvas"
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <LinkedIn />
           </a>
 
-          <a href="http://instagram.com/paw.lean" target="_blank">
+          <a
+            href="http://instagram.com/paw.lean"
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <Instagram />
           </a>
-          <a href="http://github.com/pawlean" target="_blank">
+          <a
+            href="http://github.com/pawlean"
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <GitHub />
           </a>
-          <a href="mailto:pauline@paulinenarvas.com" target="_blank">
+          <a
+            href="mailto:pauline@paulinenarvas.com"
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <Email />
           </a>
         </div>
