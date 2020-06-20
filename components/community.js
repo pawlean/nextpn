@@ -14,12 +14,12 @@ function Community() {
           target="_blank"
           aria-describedby="new-window-1"
         >
-          Code First: Girls
+          Code First: Girls{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
             className="external"
-          />
+          />{" "}
         </a>
         to deliver coding community courses for young women.{" "}
       </p>
@@ -31,7 +31,7 @@ function Community() {
           target="_blank"
           aria-describedby="new-window-1"
         >
-          first Women in Tech student community
+          first Women in Tech student community{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"

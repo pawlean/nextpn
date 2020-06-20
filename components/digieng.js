@@ -16,12 +16,12 @@ function DigiEng() {
           aria-describedby="new-window-1"
         >
           {" "}
-          here
+          here{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
             className="external"
-          />{" "}
+          />
         </a>
         . You can also follow along my journey at BT{" "}
         <a
@@ -29,7 +29,7 @@ function DigiEng() {
           target="_blank"
           aria-describedby="new-window-1"
         >
-          here
+          here{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
