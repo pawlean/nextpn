@@ -10,8 +10,17 @@ function Collab() {
       </p>
       <p className="collab">
         Want to collaborate?{" "}
-        <a href="https://by.pawlean.com/" target="_blank">
-          Let's connect!
+        <a
+          href="https://by.pawlean.com/"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          Let's connect!{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
       </p>
 

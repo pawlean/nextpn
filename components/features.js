@@ -80,8 +80,17 @@ function Features() {
               ].map((feature) => (
                 <ul className={styles.interviewlist}>
                   <li>
-                    <a href={feature.link} target="_blank">
-                      {feature.title}
+                    <a
+                      href={feature.link}
+                      target="_blank"
+                      aria-describedby="new-window-1"
+                    >
+                      {feature.title}{" "}
+                      <img
+                        src="/images/main/external-purp.svg"
+                        alt="opens in new window"
+                        className="external"
+                      />
                     </a>
                   </li>
                 </ul>
@@ -140,8 +149,17 @@ function Features() {
               ].map((feature) => (
                 <ul className={styles.interviewlist}>
                   <li>
-                    <a href={feature.link} target="_blank">
-                      {feature.title}
+                    <a
+                      href={feature.link}
+                      target="_blank"
+                      aria-describedby="new-window-1"
+                    >
+                      {feature.title}{" "}
+                      <img
+                        src="/images/main/external-purp.svg"
+                        alt="opens in new window"
+                        className="external"
+                      />
                     </a>
                   </li>
                 </ul>
@@ -182,8 +200,17 @@ function Features() {
               ].map((feature) => (
                 <ul className={styles.interviewlist}>
                   <li>
-                    <a href={feature.link} target="_blank">
-                      {feature.title}
+                    <a
+                      href={feature.link}
+                      target="_blank"
+                      aria-describedby="new-window-1"
+                    >
+                      {feature.title}{" "}
+                      <img
+                        src="/images/main/external-purp.svg"
+                        alt="opens in new window"
+                        className="external"
+                      />
                     </a>
                   </li>
                 </ul>
@@ -220,6 +247,9 @@ function Features() {
         a:hover {
           color: #f2d9f3;
           border-bottom: 1px solid #f2d9f3;
+        }
+        .external {
+          width: 10px;
         }
       `}</style>
     </div>
