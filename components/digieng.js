@@ -8,15 +8,14 @@ function DigiEng() {
         In September 2018, I joined BT's exciting Graduate Scheme working in the
         Digital Engineering team. Lasting 2 years, this development programme
         allows four 6 month long rotations across the different delivery teams
-        within BT Consumer Digital. Read about the start of my Graduate
-        Development
+        within BT Consumer Digital. Read about the start of
         <a
           href="https://www.linkedin.com/pulse/week-1-start-my-digital-development-operations-pauline-p-narvas/"
           target="_blank"
           aria-describedby="new-window-1"
         >
           {" "}
-          here{" "}
+          my Graduate Development{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
@@ -29,7 +28,7 @@ function DigiEng() {
           target="_blank"
           aria-describedby="new-window-1"
         >
-          here{" "}
+          on my blog{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
