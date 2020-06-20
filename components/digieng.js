@@ -26,7 +26,7 @@ function DigiEng() {
         </a>
         .
       </p>
-      <img src="images/main/grad_scheme.png" />
+      <img src="images/main/grad_scheme.png" alt="BT Graduate Scheme" />
 
       <h2>Projects</h2>
       <div className={styles.features}>
@@ -89,7 +89,7 @@ function DigiEng() {
         ].map((feature) => (
           <a href={feature.link} target="_blank">
             <div className={styles.feature}>
-              <img src={feature.image} />
+              <img src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
             </div>
           </a>

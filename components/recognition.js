@@ -4,7 +4,7 @@ function Recognition() {
   return (
     <div className={styles.whitecontainer}>
       <h1>🏆 Recognition</h1>
-      <img src="images/awards/Awards.png" />
+      <img src="images/awards/Awards.png" alt="Recognition" />
     </div>
   );
 }

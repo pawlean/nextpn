@@ -76,7 +76,7 @@ function Community() {
         ].map((feature) => (
           <a href={feature.link} target="_blank">
             <div className={styles.feature}>
-              <img src={feature.image} />
+              <img src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
             </div>
           </a>

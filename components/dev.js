@@ -78,7 +78,7 @@ function Dev() {
             <div className={styles.project}>
               <h3>{project.title}</h3>
 
-              <img src={project.image} />
+              <img src={project.image} alt={project.title} />
 
               <p>{project.description}</p>
             </div>

@@ -8,6 +8,7 @@ const Twitter = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
+    aria-label="Twitter"
   >
     <style>
       {`
@@ -38,6 +39,7 @@ const LinkedIn = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
+    aria-label="LinkedIn"
   >
     <path
       className="socialmedia"
@@ -56,6 +58,7 @@ const Instagram = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
+    aria-label="Instagram"
   >
     <path
       className="socialmedia"
@@ -74,6 +77,7 @@ const Email = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
+    aria-label="Email"
   >
     <path
       className="socialmedia"
@@ -92,6 +96,7 @@ const GitHub = () => (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 496 512"
+    aria-label="GitHub"
   >
     <path
       className="socialmedia"
