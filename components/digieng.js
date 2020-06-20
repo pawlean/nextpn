@@ -1,4 +1,5 @@
 import styles from "./layout.module.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function DigiEng() {
   return (
@@ -39,7 +40,10 @@ function DigiEng() {
         </a>
         .
       </p>
-      <img src="images/main/grad_scheme.png" alt="BT Graduate Scheme" />
+      <LazyLoadImage
+        src="images/main/grad_scheme.png"
+        alt="BT Graduate Scheme"
+      />
 
       <h2>Projects</h2>
       <div className={styles.features}>
@@ -108,7 +112,7 @@ function DigiEng() {
             key={feature.link}
           >
             <div className={styles.feature}>
-              <img src={feature.image} alt={feature.title} />
+              <LazyLoadImage src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
             </div>
           </a>

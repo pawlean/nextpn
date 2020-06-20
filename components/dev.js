@@ -1,5 +1,6 @@
 import styles from "./layout.module.scss";
 import Button from "./button";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Dev() {
   return (
@@ -98,7 +99,7 @@ function Dev() {
             <div className={styles.project}>
               <h3>{project.title}</h3>
 
-              <img src={project.image} alt={project.title} />
+              <LazyLoadImage src={project.image} alt={project.title} />
 
               <p>{project.description}</p>
             </div>

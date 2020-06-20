@@ -164,7 +164,7 @@ export default function Home() {
           max-width: 300px;
           width: 100%;
           object-fit: cover;
-          height: auto;
+          max-height: 300px;
           margin-bottom: 1rem;
           border: 10px solid #a47da4;
         }

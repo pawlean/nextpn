@@ -1,4 +1,5 @@
 import styles from "./layout.module.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Community() {
   return (
@@ -116,7 +117,7 @@ function Community() {
             key={feature.link}
           >
             <div className={styles.feature}>
-              <img src={feature.image} alt={feature.title} />
+              <LazyLoadImage src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
             </div>
           </a>

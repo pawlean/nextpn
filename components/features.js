@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./layout.module.scss";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 function Features() {
   const [show, setShow] = useState(false);
@@ -11,7 +12,7 @@ function Features() {
       <div className="Interviews">
         <div>
           <span onClick={() => setShow(!show)}>
-            <img src="images/Interviews.png" alt="Interviews" />
+            <LazyLoadImage src="images/Interviews.png" alt="Interviews" />
           </span>
           {show && (
             <div className="InterviewBlock">
@@ -101,7 +102,7 @@ function Features() {
         </div>
         <div>
           <span onClick={() => setShow_pod(!show_podcast)}>
-            <img src="images/podcast.png" alt="Podcasts" />
+            <LazyLoadImage src="images/podcast.png" alt="Podcasts" />
           </span>
           {show_podcast && (
             <div className="InterviewBlock">
@@ -171,7 +172,7 @@ function Features() {
         </div>
         <div>
           <span onClick={() => setShow_other(!show_other)}>
-            <img src="images/other.png" alt="Other" />
+            <LazyLoadImage src="images/other.png" alt="Other" />
           </span>
           {show_other && (
             <div className="InterviewBlock">
