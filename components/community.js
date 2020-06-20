@@ -78,7 +78,7 @@ function Community() {
         {[
           {
             title: "Computer Weekly",
-            image: "https://i.ibb.co/4FzpMG5/Pay-It-Forward.png",
+            image: "images/projects/Pay-It-Forward.png",
             link:
               "https://www.computerweekly.com/video/Amali-de-Alwis-most-influential-woman-in-UK-IT-2018-winners-speech",
           },
