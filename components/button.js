@@ -1,7 +1,12 @@
 function Button(props) {
   return (
     <div>
-      <a href={props.buttonLink} className="button" target="_blank">
+      <a
+        href={props.buttonLink}
+        className="button"
+        target="_blank"
+        aria-describedby="new-window-1"
+      >
         View more &#187;
       </a>
       <style jsx>

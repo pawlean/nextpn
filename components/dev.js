@@ -10,8 +10,14 @@ function Dev() {
         <a
           href="https://www.yorkshirepost.co.uk/news/people/from-high-school-musical-fansites-to-ee-developer-how-pauline-overcame-school-bullies-to-inspire-women-in-technology-1-9960344"
           target="_blank"
+          aria-describedby="new-window-1"
         >
           I formed a hobby of building websites
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />{" "}
         </a>{" "}
         which carries on to this day - continuing to bring my ideas to life by
         playing around with pixels on the internet. Taking my love for
@@ -19,8 +25,14 @@ function Dev() {
         <a
           href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
           AWS Certified Cloud Practitioner
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         in November 2019. I am familiar with:
         <ul className={styles.skills}>
@@ -78,7 +90,11 @@ function Dev() {
             <div className={styles.project}>
               <h3>{project.title}</h3>
 
-              <img src={project.image} alt={project.title} />
+              <img
+                src={project.image}
+                alt={project.title}
+                aria-describedby="new-window-1"
+              />
 
               <p>{project.description}</p>
             </div>

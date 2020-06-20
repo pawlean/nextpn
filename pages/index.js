@@ -97,8 +97,17 @@ export default function Home() {
         <h1 className="title">Hi, I'm Pauline.</h1>
         <p className="description">
           People also call me{" "}
-          <a href="/PaulineNarvasInsights.pdf" target="_blank">
+          <a
+            href="/PaulineNarvasInsights.pdf"
+            target="_blank"
+            aria-describedby="new-window-0"
+          >
             Powerhouse
+            <img
+              src="/images/main/external.svg"
+              alt="opens in new window"
+              className="external"
+            />{" "}
           </a>
           .<br></br>To summarise, I am a...
         </p>
@@ -128,6 +137,7 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
+
         .title {
           margin: 0;
           padding-top: 10px;
@@ -163,6 +173,10 @@ export default function Home() {
         a:hover {
           border-bottom: 1px solid #a47da4;
         }
+        .external {
+          width: 15px;
+          margin-left: 5px;
+        }
         @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
           .profile {
             max-width: auto;
@@ -182,6 +196,10 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+        }
+        .external {
+          width: 10px;
+          margin-left: 5px;
         }
       `}</style>
     </div>
