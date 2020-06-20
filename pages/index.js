@@ -89,7 +89,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <img src="/images/PaulineNarvas.jpg" className="profile" />
+        <img
+          src="/images/PaulineNarvas.jpg"
+          className="profile"
+          alt="A photo of Pauline Narvas"
+        />
         <h1 className="title">Hi, I'm Pauline.</h1>
         <p className="description">
           People also call me{" "}
