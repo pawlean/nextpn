@@ -6,6 +6,7 @@ function Button(props) {
         className="button"
         target="_blank"
         aria-describedby="new-window-1"
+        rel="noopener"
       >
         View more &#187;
       </a>

@@ -11,6 +11,7 @@ function Dev() {
           href="https://www.yorkshirepost.co.uk/news/people/from-high-school-musical-fansites-to-ee-developer-how-pauline-overcame-school-bullies-to-inspire-women-in-technology-1-9960344"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           I formed a hobby of building websites
           <img
@@ -26,6 +27,7 @@ function Dev() {
           href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           AWS Certified Cloud Practitioner
           <img
@@ -90,6 +92,7 @@ function Dev() {
             href={project.link}
             target="_blank"
             aria-describedby="new-window-1"
+            rel="noopener"
           >
             <div className={styles.project}>
               <h3>{project.title}</h3>

@@ -13,6 +13,7 @@ function DigiEng() {
           href="https://www.linkedin.com/pulse/week-1-start-my-digital-development-operations-pauline-p-narvas/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           {" "}
           my Graduate Development{" "}
@@ -27,6 +28,7 @@ function DigiEng() {
           href="https://pawlean.com/category/self-development/bt-graduate-scheme/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           on my blog{" "}
           <img
@@ -102,6 +104,7 @@ function DigiEng() {
             href={feature.link}
             target="_blank"
             aria-describedby="new-window-1"
+            rel="noopener"
           >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />

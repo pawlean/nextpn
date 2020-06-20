@@ -65,6 +65,7 @@ function Talks() {
                   href={talks.ytlink}
                   target="_blank"
                   aria-describedby="new-window-1"
+                  rel="noopener"
                 >
                   Watch{" "}
                   <img
@@ -77,6 +78,7 @@ function Talks() {
                 <a
                   href={talks.slides}
                   target="_blank"
+                  rel="noopener"
                   aria-describedby="new-window-1"
                 >
                   Slides{" "}

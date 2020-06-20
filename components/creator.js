@@ -10,6 +10,7 @@ function Creator() {
           href="http://pawlean.com/online"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           I started writing on the web{" "}
           <img
@@ -25,6 +26,7 @@ function Creator() {
           href="http://pawlean.com/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           My blog{" "}
           <img
@@ -43,6 +45,7 @@ function Creator() {
           href="http://pawlean.com/category/monthly-for-me/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           monthly reflections{" "}
           <img
@@ -56,6 +59,7 @@ function Creator() {
           href="http://pawlean.com/category/tech/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           equality in STEM{" "}
           <img
@@ -69,6 +73,7 @@ function Creator() {
           href="http://pawlean.com/category/health-well-being/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           well-being{" "}
           <img
@@ -82,6 +87,7 @@ function Creator() {
           href="https://pawlean.com/2018/11/25/building-an-online-presence/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           building your online presence.{" "}
           <img
@@ -95,6 +101,7 @@ function Creator() {
           href="https://pawlean.com/category/online/collaborations/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           collaborate with different brands, people and companies.{" "}
           <img
@@ -108,6 +115,7 @@ function Creator() {
           href="https://pawlean.com/archives"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           here.{" "}
           <img
@@ -124,6 +132,7 @@ function Creator() {
           href="https://YouTube.com/PaulineNarvas/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           YouTube{" "}
           <img
@@ -138,6 +147,7 @@ function Creator() {
           href="https://inspiringfigures.co"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           Inspiring Figures{" "}
           <img
@@ -201,6 +211,7 @@ function Creator() {
             href={feature.link}
             target="_blank"
             aria-describedby="new-window-1"
+            rel="noopener"
           >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />
@@ -227,6 +238,7 @@ function Creator() {
               href="https://www.buymeacoffee.com/pawlean"
               target="_blank"
               aria-describedby="new-window-1"
+              rel="noopener"
             >
               BuyMeACoffee{" "}
               <img

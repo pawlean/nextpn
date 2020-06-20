@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             aria-describedby="new-window-1"
             alt="Twitter"
+            rel="noopener"
           >
             <Twitter />
           </a>
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             aria-describedby="new-window-1"
             alt="LinkedIn"
+            rel="noopener"
           >
             <LinkedIn />
           </a>
@@ -37,6 +39,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             aria-describedby="new-window-1"
             alt="Instagram"
+            rel="noopener"
           >
             <Instagram />
           </a>
@@ -45,6 +48,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             aria-describedby="new-window-1"
             alt="GitHub"
+            rel="noopener"
           >
             <GitHub />
           </a>
@@ -53,6 +57,7 @@ function MyApp({ Component, pageProps }) {
             target="_blank"
             aria-describedby="new-window-1"
             alt="Email"
+            rel="noopener"
           >
             <Email />
           </a>

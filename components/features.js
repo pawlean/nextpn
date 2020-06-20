@@ -84,6 +84,7 @@ function Features() {
                       href={feature.link}
                       target="_blank"
                       aria-describedby="new-window-1"
+                      rel="noopener"
                     >
                       {feature.title}{" "}
                       <img
@@ -153,6 +154,7 @@ function Features() {
                       href={feature.link}
                       target="_blank"
                       aria-describedby="new-window-1"
+                      rel="noopener"
                     >
                       {feature.title}{" "}
                       <img
@@ -204,6 +206,7 @@ function Features() {
                       href={feature.link}
                       target="_blank"
                       aria-describedby="new-window-1"
+                      rel="noopener"
                     >
                       {feature.title}{" "}
                       <img

@@ -13,6 +13,7 @@ function Community() {
           href="http://twitter.com/codefirstgirls"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           Code First: Girls{" "}
           <img
@@ -30,6 +31,7 @@ function Community() {
           href="https://www.facebook.com/groups/1438086499595347/about/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           first Women in Tech student community{" "}
           <img
@@ -43,6 +45,7 @@ function Community() {
           href="http://facebook.com/medtechsheffield"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           MedTech Sheffield{" "}
           <img
@@ -62,6 +65,7 @@ function Community() {
           href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           furtHER program{" "}
           <img
@@ -108,6 +112,7 @@ function Community() {
             href={feature.link}
             target="_blank"
             aria-describedby="new-window-1"
+            rel="noopener"
           >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />
@@ -126,6 +131,7 @@ function Community() {
               href="https://twitter.com/paulienuh/status/858677843362009088"
               target="_blank"
               aria-describedby="new-window-1"
+              rel="noopener"
             >
               hackathon{" "}
               <img
@@ -142,6 +148,7 @@ function Community() {
               href="https://www.hacksheffield.co/"
               target="_blank"
               aria-describedby="new-window-1"
+              rel="noopener"
             >
               HackSheffield{" "}
               <img
@@ -155,6 +162,7 @@ function Community() {
               href="https://twitter.com/paulienuh/status/833093729858834432"
               target="_blank"
               aria-describedby="new-window-1"
+              rel="noopener"
             >
               20 CFG students{" "}
               <img
@@ -178,6 +186,7 @@ function Community() {
               href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
               target="_blank"
               aria-describedby="new-window-1"
+              rel="noopener"
             >
               shared and highlighted by BT Consumer's CEO, Marc Allera.{" "}
               <img

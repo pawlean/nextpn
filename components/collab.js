@@ -14,6 +14,7 @@ function Collab() {
           href="https://by.pawlean.com/"
           target="_blank"
           aria-describedby="new-window-1"
+          rel="noopener"
         >
           Let's connect!{" "}
           <img
