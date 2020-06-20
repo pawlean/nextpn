@@ -97,8 +97,7 @@ function DigiEng() {
           {
             title: "ELEVATE Programme Careers Talk",
             image: "images/projects/ELEVATE.png",
-            link:
-              "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
+            link: "https://www.youtube.com/watch?v=eA2HdTKD764",
           },
         ].map((feature) => (
           <a
