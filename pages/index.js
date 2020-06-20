@@ -25,8 +25,8 @@ export default function Home() {
     gtag('config', 'UA-105893238-1');`}
         </script>
         <meta
-          name="Pauline P. Narvas"
-          content="Pauline Narvas' portfolio website"
+          name="description"
+          content="Pauline Narvas is a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
         ></meta>
         <meta
           property="og:title"
