@@ -24,7 +24,10 @@ export default function Home() {
 
     gtag('config', 'UA-105893238-1');`}
         </script>
-
+        <meta
+          name="Pauline P. Narvas"
+          content="Pauline Narvas' portfolio website"
+        ></meta>
         <meta
           property="og:title"
           content="Pauline P. Narvas | People also search for: Powerhouse"
