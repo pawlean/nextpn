@@ -104,6 +104,7 @@ export default function Home() {
             href="/PaulineNarvasInsights.pdf"
             target="_blank"
             aria-describedby="new-window-0"
+            rel="noopener"
           >
             Powerhouse
             <img
