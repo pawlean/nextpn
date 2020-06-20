@@ -94,11 +94,7 @@ function Dev() {
             <div className={styles.project}>
               <h3>{project.title}</h3>
 
-              <img
-                src={project.image}
-                alt={project.title}
-                aria-describedby="new-window-1"
-              />
+              <img src={project.image} alt={project.title} />
 
               <p>{project.description}</p>
             </div>
