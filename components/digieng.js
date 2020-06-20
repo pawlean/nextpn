@@ -105,6 +105,7 @@ function DigiEng() {
             target="_blank"
             aria-describedby="new-window-1"
             rel="noopener"
+            key={feature.link}
           >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />

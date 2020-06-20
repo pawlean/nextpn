@@ -173,7 +173,7 @@ function Creator() {
             "Creating podcasts",
             "Blogging",
           ].map((skill) => (
-            <li>{skill}</li>
+            <li key={skill}>{skill}</li>
           ))}
         </ul>
       </p>
@@ -212,6 +212,7 @@ function Creator() {
             target="_blank"
             aria-describedby="new-window-1"
             rel="noopener"
+            key={feature.link}
           >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />

@@ -18,11 +18,13 @@ export default function Home() {
           src="https://www.googletagmanager.com/gtag/js?id=UA-105893238-1"
         />
         <script>
-          {`window.dataLayer = window.dataLayer || [];
+          {`
+          window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', 'UA-105893238-1');`}
+    gtag('config', 'UA-105893238-1');
+    `}
         </script>
         <meta
           name="description"

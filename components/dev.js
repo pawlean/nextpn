@@ -55,7 +55,7 @@ function Dev() {
             "Lambda",
             "Tailwind",
           ].map((skill) => (
-            <li>{skill}</li>
+            <li key={skill}>{skill}</li>
           ))}
         </ul>
       </p>
@@ -93,6 +93,7 @@ function Dev() {
             target="_blank"
             aria-describedby="new-window-1"
             rel="noopener"
+            key={project.link}
           >
             <div className={styles.project}>
               <h3>{project.title}</h3>
