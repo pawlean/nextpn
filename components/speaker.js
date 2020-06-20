@@ -15,7 +15,7 @@ function Speaker() {
           width="100%"
           height="615"
           src="https://www.youtube.com/embed/videoseries?list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; encrypted-media"
           allowFullScreen
         ></iframe>
