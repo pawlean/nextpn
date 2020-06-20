@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
             href="http://twitter.com/paulienuh"
             target="_blank"
             aria-describedby="new-window-1"
+            alt="Twitter"
           >
             <Twitter />
           </a>
@@ -26,6 +27,7 @@ function MyApp({ Component, pageProps }) {
             href="http://linkedin.com/in/pnarvas"
             target="_blank"
             aria-describedby="new-window-1"
+            alt="LinkedIn"
           >
             <LinkedIn />
           </a>
@@ -34,6 +36,7 @@ function MyApp({ Component, pageProps }) {
             href="http://instagram.com/paw.lean"
             target="_blank"
             aria-describedby="new-window-1"
+            alt="Instagram"
           >
             <Instagram />
           </a>
@@ -41,6 +44,7 @@ function MyApp({ Component, pageProps }) {
             href="http://github.com/pawlean"
             target="_blank"
             aria-describedby="new-window-1"
+            alt="GitHub"
           >
             <GitHub />
           </a>
@@ -48,6 +52,7 @@ function MyApp({ Component, pageProps }) {
             href="mailto:pauline@paulinenarvas.com"
             target="_blank"
             aria-describedby="new-window-1"
+            alt="Email"
           >
             <Email />
           </a>
