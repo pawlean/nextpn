@@ -6,58 +6,145 @@ function Creator() {
       <h1>📝 Creator</h1>
       <p>
         13 years ago,{" "}
-        <a href="http://pawlean.com/online">I started writing on the web</a>.
+        <a
+          href="http://pawlean.com/online"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          I started writing on the web{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>
+        .
       </p>
       <p>
-        <a href="http://pawlean.com/">My blog</a> has evolved over time, I now
-        write about reflections of my experiences for both my self development
-        journey as well as daily adventures in life.{" "}
+        <a
+          href="http://pawlean.com/"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          My blog{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        has evolved over time, I now write about reflections of my experiences
+        for both my self development journey as well as daily adventures in
+        life.{" "}
       </p>
       <p>
         Examples of the topics I cover include{" "}
-        <a href="http://pawlean.com/category/monthly-for-me/" target="_blank">
-          monthly reflections
+        <a
+          href="http://pawlean.com/category/monthly-for-me/"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          monthly reflections{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
         ,{" "}
-        <a href="http://pawlean.com/category/tech/" target="_blank">
-          equality in STEM
+        <a
+          href="http://pawlean.com/category/tech/"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          equality in STEM{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
         ,{" "}
         <a
           href="http://pawlean.com/category/health-well-being/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
-          well-being
+          well-being{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
         , and{" "}
         <a
           href="https://pawlean.com/2018/11/25/building-an-online-presence/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
-          building your online presence.
-        </a>
+          building your online presence.{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
         I regularly{" "}
         <a
           href="https://pawlean.com/category/online/collaborations/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
-          collaborate with different brands, people and companies.
+          collaborate with different brands, people and companies.{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         A full list of topics can be found{" "}
-        <a href="https://pawlean.com/archives" target="_blank">
-          here.
+        <a
+          href="https://pawlean.com/archives"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          here.{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
       </p>
 
       <p>
         I've also branched out onto{" "}
-        <a href="https://YouTube.com/PaulineNarvas/" target="_blank">
-          YouTube
+        <a
+          href="https://YouTube.com/PaulineNarvas/"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          YouTube{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         and have worked with different people on communicating messages across
         to my global auidence. For example, I built{" "}
-        <a href="https://inspiringfigures.co" target="_blank">
-          Inspiring Figures
+        <a
+          href="https://inspiringfigures.co"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          Inspiring Figures{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         to share inspirational figures' stories from around the world.
       </p>
@@ -110,7 +197,11 @@ function Creator() {
             link: "https://twitter.com/sheffielduni/status/1045704692179693568",
           },
         ].map((feature) => (
-          <a href={feature.link} target="_blank">
+          <a
+            href={feature.link}
+            target="_blank"
+            aria-describedby="new-window-1"
+          >
             <div className={styles.feature}>
               <img src={feature.image} alt={feature.title} />
               <p>{feature.title}</p>
@@ -132,12 +223,28 @@ function Creator() {
           </li>
           <li>
             Overwhelming support on social media - as shown on{" "}
-            <a href="https://www.buymeacoffee.com/pawlean" target="_blank">
-              BuyMeACoffee
+            <a
+              href="https://www.buymeacoffee.com/pawlean"
+              target="_blank"
+              aria-describedby="new-window-1"
+            >
+              BuyMeACoffee{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
             </a>
           </li>
         </ul>
       </div>
+      <style jsx>
+        {`
+          .external {
+            width: 10px;
+          }
+        `}
+      </style>
     </div>
   );
 }

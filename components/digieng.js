@@ -13,16 +13,28 @@ function DigiEng() {
         <a
           href="https://www.linkedin.com/pulse/week-1-start-my-digital-development-operations-pauline-p-narvas/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
           {" "}
           here
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />{" "}
         </a>
         . You can also follow along my journey at BT{" "}
         <a
           href="https://pawlean.com/category/self-development/bt-graduate-scheme/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
           here
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
         .
       </p>
@@ -95,6 +107,13 @@ function DigiEng() {
           </a>
         ))}
       </div>
+      <style jsx>
+        {`
+          .external {
+            width: 10px;
+          }
+        `}
+      </style>
     </div>
   );
 }

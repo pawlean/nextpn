@@ -9,8 +9,17 @@ function Community() {
         actively work with communities to help bridge the inequalities in the
         tech industry, focusing speficially on females and people of colour
         representation. For over 3 years, I've proudly worked with{" "}
-        <a href="http://twitter.com/codefirstgirls" target="_blank">
-          Code First: Girls{" "}
+        <a
+          href="http://twitter.com/codefirstgirls"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          Code First: Girls
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>
         to deliver coding community courses for young women.{" "}
       </p>
@@ -20,12 +29,27 @@ function Community() {
         <a
           href="https://www.facebook.com/groups/1438086499595347/about/"
           target="_blank"
+          aria-describedby="new-window-1"
         >
           first Women in Tech student community
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         in Sheffield. Also, as part of the{" "}
-        <a href="http://facebook.com/medtechsheffield" target="_blank">
-          MedTech Sheffield
+        <a
+          href="http://facebook.com/medtechsheffield"
+          target="_blank"
+          aria-describedby="new-window-1"
+        >
+          MedTech Sheffield{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         committee, I led in bringing students from different backgrounds
         together to events, workshops and hackathons.
@@ -37,8 +61,14 @@ function Community() {
         <a
           href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
           target="_blank"
+          aria-describedby="new-window-1"
         >
-          furtHER program
+          furtHER program{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
         </a>{" "}
         as a mentor to upskill young women into joining the industry.
       </p>
@@ -91,22 +121,43 @@ function Community() {
             <a
               href="https://twitter.com/paulienuh/status/858677843362009088"
               target="_blank"
+              aria-describedby="new-window-1"
             >
-              hackathon
+              hackathon{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
             </a>{" "}
             scene and the wider Women in Tech community.
           </li>
           <li>
             <strong>Feb 2017:</strong> Collaboration with{" "}
-            <a href="https://www.hacksheffield.co/" target="_blank">
-              HackSheffield
+            <a
+              href="https://www.hacksheffield.co/"
+              target="_blank"
+              aria-describedby="new-window-1"
+            >
+              HackSheffield{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
             </a>{" "}
             to take over{" "}
             <a
               href="https://twitter.com/paulienuh/status/833093729858834432"
               target="_blank"
+              aria-describedby="new-window-1"
             >
-              20 CFG students
+              20 CFG students{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
             </a>{" "}
             to the InspireWIT conference.
           </li>
@@ -122,8 +173,14 @@ function Community() {
             <a
               href="https://twitter.com/MarcAllera/status/1103945546568556544?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1103945546568556544&ref_url=file%3A%2F%2F%2FUsers%2Fpnarvas%2Fpaulinenarvas%2Findex.html"
               target="_blank"
+              aria-describedby="new-window-1"
             >
-              shared and highlighted by BT Consumer's CEO, Marc Allera.
+              shared and highlighted by BT Consumer's CEO, Marc Allera.{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
             </a>
           </li>
         </ul>

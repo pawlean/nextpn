@@ -199,7 +199,6 @@ export default function Home() {
         }
         .external {
           width: 10px;
-          margin-left: 5px;
         }
       `}</style>
     </div>

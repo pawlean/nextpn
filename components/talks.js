@@ -62,11 +62,21 @@ function Talks() {
               <p>
                 🎬{" "}
                 <a href={talks.ytlink} target="_blank">
-                  Watch
+                  Watch{" "}
+                  <img
+                    src="/images/main/external.svg"
+                    alt="opens in new window"
+                    className="external"
+                  />
                 </a>{" "}
                 | 🗒{" "}
                 <a href={talks.slides} target="_blank">
-                  Slides
+                  Slides{" "}
+                  <img
+                    src="/images/main/external.svg"
+                    alt="opens in new window"
+                    className="external"
+                  />
                 </a>
               </p>
             </div>
@@ -118,8 +128,7 @@ function Talks() {
             text-align: center;
           }
           a:hover {
-            background-color: #a47da4;
-            color: #fff;
+            color: #836883;
           }
           @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
             .talksgroup {
