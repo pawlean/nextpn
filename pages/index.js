@@ -17,15 +17,16 @@ export default function Home() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-105893238-1"
         />
-        <script>
-          {`
-          window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-105893238-1');
-    `}
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag() { dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-105893238-1');
+          `,
+          }}
+        />
         <meta
           name="description"
           content="Pauline Narvas is a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
