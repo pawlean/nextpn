@@ -142,7 +142,7 @@ export default function Home() {
           margin: 0;
           padding-top: 10px;
           line-height: 1.15;
-          font-size: 3rem;
+          font-size: 2.8rem;
           color: #000;
         }
         .title,
@@ -151,7 +151,7 @@ export default function Home() {
         }
         .description {
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 1.4rem;
         }
         .profile {
           border-radius: 50%;
