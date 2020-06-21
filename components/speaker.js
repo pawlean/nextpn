@@ -18,7 +18,10 @@ function Speaker() {
           * {
             padding:0;
             margin:0;
-            overflow:hidden
+            overflow:hidden;
+          }
+          body {
+            background-color: black
           }
           img,span {
             position:absolute;
