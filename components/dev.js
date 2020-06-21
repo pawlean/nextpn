@@ -14,12 +14,12 @@ function Dev() {
           aria-describedby="new-window-1"
           rel="noopener"
         >
-          I formed a hobby of building websites
+          I formed a hobby of building websites{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
             className="external"
-          />{" "}
+          />
         </a>{" "}
         which carries on to this day - continuing to bring my ideas to life by
         playing around with pixels on the internet. Taking my love for
@@ -30,7 +30,7 @@ function Dev() {
           aria-describedby="new-window-1"
           rel="noopener"
         >
-          AWS Certified Cloud Practitioner
+          AWS Certified Cloud Practitioner{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
