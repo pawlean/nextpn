@@ -79,7 +79,7 @@ function Features() {
                     "https://www.projectprep.com/blog/2017/5/31/womein-in-tech-pauline-narvas?utm_content=bufferae00c&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer",
                 },
               ].map((feature) => (
-                <ul className={styles.interviewlist}>
+                <ul className="interviewlist">
                   <li>
                     <a
                       href={feature.link}
@@ -149,7 +149,7 @@ function Features() {
                     "https://www.birchenallhowden.co.uk/podcasts/unravelling-technology-ep-078-women-in-stem",
                 },
               ].map((feature) => (
-                <ul className={styles.interviewlist}>
+                <ul className="interviewlist">
                   <li>
                     <a
                       href={feature.link}
@@ -201,7 +201,7 @@ function Features() {
                     "https://twitter.com/paulienuh/status/856953783234023424",
                 },
               ].map((feature) => (
-                <ul className={styles.interviewlist}>
+                <ul className="interviewlist">
                   <li>
                     <a
                       href={feature.link}
@@ -244,6 +244,12 @@ function Features() {
           padding: 10px;
           border: 1px dotted #836883;
         }
+        .interviewlist {
+          margin-bottom: 20px;
+          width: 100%;
+          max-width: 250px;
+        }
+
         a {
           color: white;
           border-bottom: 1px dotted white;
