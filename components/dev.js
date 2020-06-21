@@ -62,7 +62,7 @@ function Dev() {
       </p>
 
       <h2>Recent projects</h2>
-      <div className={styles.previouswork}>
+      <div className="previouswork">
         {[
           {
             title: "Ryan Kitto PT",
@@ -105,6 +105,34 @@ function Dev() {
         ))}
       </div>
       <Button buttonLink="https://github.com/pawlean"></Button>
+      <style jsx>
+        {`
+          .previouswork {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+          }
+          h3 {
+            color: white;
+          }
+          .previouswork p {
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 1rem;
+            text-align: center;
+            width: 100%;
+          }
+          .previouswork a {
+            text-decoration: none;
+            border-bottom: 0px;
+          }
+          .previouswork a:hover {
+            border-bottom: 0px;
+          }
+        `}
+      </style>
     </div>
   );
 }
