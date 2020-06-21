@@ -94,11 +94,11 @@ export default function Home() {
 
       <main>
         <img
-          src="/images/PaulineNarvas.jpg"
+          src={require("../public/images/PaulineNarvas.jpg?webp")}
           className="profile"
           alt="A photo of Pauline Narvas"
-          type="image/webp"
         />
+
         <h1 className="title">Hi, I'm Pauline.</h1>
         <p className="description">
           People also call me{" "}

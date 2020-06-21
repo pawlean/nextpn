@@ -12,7 +12,10 @@ function Features() {
       <div className="Interviews">
         <div className="featureimage">
           <span onClick={() => setShow(!show)}>
-            <LazyLoadImage src="images/Interviews.png" alt="Interviews" />
+            <LazyLoadImage
+              src={require("../public/images/Interviews.png?webp")}
+              alt="Interviews"
+            />
           </span>
           {show && (
             <div className="InterviewBlock">
@@ -102,7 +105,10 @@ function Features() {
         </div>
         <div className="featureimage">
           <span onClick={() => setShow_pod(!show_podcast)}>
-            <LazyLoadImage src="images/podcast.png" alt="Podcasts" />
+            <LazyLoadImage
+              src={require("../public/images/podcast.png?webp")}
+              alt="Podcast"
+            />
           </span>
           {show_podcast && (
             <div className="InterviewBlock">
@@ -172,7 +178,10 @@ function Features() {
         </div>
         <div className="featureimage">
           <span onClick={() => setShow_other(!show_other)}>
-            <LazyLoadImage src="images/other.png" alt="Other" />
+            <LazyLoadImage
+              src={require("../public/images/other.png?webp")}
+              alt="Other"
+            />
           </span>
           {show_other && (
             <div className="InterviewBlock">

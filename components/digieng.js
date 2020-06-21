@@ -40,8 +40,9 @@ function DigiEng() {
         </a>
         .
       </p>
+
       <LazyLoadImage
-        src="images/main/grad_scheme.png"
+        src={require("../public/images/main/grad_scheme.png?webp")}
         alt="BT Graduate Scheme"
       />
 
