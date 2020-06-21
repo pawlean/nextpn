@@ -36,7 +36,7 @@
   }
   .key {
     border: 1px dotted $pawlean;
-    width: 50%;
+    max-width: 560px;
     margin: 0 auto;
     padding: 20px;
     background-color: $white;
@@ -82,7 +82,7 @@
   .key {
     background-color: $grey;
     border: 1px dotted $pawlean;
-    width: 50%;
+    max-width: 560px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -165,75 +165,4 @@
 .videoWrapper {
   width: 50%;
   margin: 0 auto;
-}
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .previouswork {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    text-align: center;
-  }
-  .greycontainer,
-  .whitecontainer {
-    p {
-      width: 100%;
-    }
-    .key {
-      width: 100%;
-    }
-  }
-  .skills {
-    width: 100%;
-    padding: 0px;
-  }
-  .videoWrapper {
-    width: 100%;
-  }
-}
-
-/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
-
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
-  .previouswork {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    text-align: center;
-  }
-  .greycontainer,
-  .whitecontainer {
-    p {
-      width: 100%;
-    }
-    .key {
-      width: 100%;
-    }
-  }
-}
-/* Portrait and Landscape */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .greycontainer,
-  .whitecontainer {
-    p {
-      width: 100%;
-    }
-    .key {
-      width: 100%;
-    }
-  }
-  .skills {
-    width: 100%;
-  }
-  .previouswork {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    text-align: center;
-  }
-  .videoWrapper {
-    width: 100%;
-  }
 }
