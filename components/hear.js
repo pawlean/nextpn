@@ -2,32 +2,34 @@ import styles from "./layout.module.scss";
 import Button from "./button";
 
 import { TwitterTweetEmbed } from "../node_modules/react-twitter-embed";
-
+import { LazyLoadComponent } from "react-lazy-load-image-component";
 function Hear() {
   return (
     <div className={styles.greycontainer}>
       <h1>💬 Hear it from others</h1>
-      <section className="twitterContainer">
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="870915182364684288" />
-        </div>
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="983255007796645889" />
-        </div>
+      <LazyLoadComponent>
+        <section className="twitterContainer">
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="870915182364684288" />
+          </div>
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="983255007796645889" />
+          </div>
 
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="895929869451874304" />
-        </div>
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="917498515466735617" />
-        </div>
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="884494617588248576" />
-        </div>
-        <div className="twitter-embed">
-          <TwitterTweetEmbed tweetId="889410104789016576" />
-        </div>
-      </section>
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="895929869451874304" />
+          </div>
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="917498515466735617" />
+          </div>
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="884494617588248576" />
+          </div>
+          <div className="twitter-embed">
+            <TwitterTweetEmbed tweetId="889410104789016576" />
+          </div>
+        </section>
+      </LazyLoadComponent>
       <Button buttonLink="https://twitter.com/i/events/904779739071750146"></Button>
 
       <style jsx>{`

@@ -98,6 +98,7 @@ export default function Home() {
           src="/images/PaulineNarvas.jpg"
           className="profile"
           alt="A photo of Pauline Narvas"
+          type="image/webp"
         />
         <h1 className="title">Hi, I'm Pauline.</h1>
         <p className="description">
