@@ -5,7 +5,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Dev() {
   return (
     <div className={styles.greycontainer}>
-      <h1>💻 Enthuastic Techie</h1>
+      <h1>💻 Enthusiastic Techie</h1>
       <p>
         I began learning to code for fun when I was 8 years old.{" "}
         <a
