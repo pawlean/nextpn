@@ -152,7 +152,7 @@ export default function Home() {
           margin: 0;
           padding-top: 10px;
           line-height: 1.15;
-          font-size: 2.8rem;
+          font-size: 4vmax;
           color: #000;
         }
         .title,
