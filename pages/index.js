@@ -39,7 +39,7 @@ export default function Home() {
         <meta property="og:url" content="https://paulinenarvas.com" />
         <meta
           property="og:image"
-          content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/card2020.png"
         />
         <meta property="og:image:width" content="677" />
         <meta property="og:image:height" content="353" />
@@ -61,7 +61,7 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://pawlean.s3.eu-west-2.amazonaws.com/twi.png"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/card2020.png"
         />
         <meta name="twitter:image:alt" content="Pauline P. Narvas" />
         <link
