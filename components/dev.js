@@ -25,7 +25,7 @@ function Dev() {
         playing around with pixels on the internet. Taking my love for
         technology and learning further, I took to the Clouds and became an{" "}
         <a
-          href="https://aws.amazon.com/certification/certified-cloud-practitioner/"
+          href="https://pawlean.s3.eu-west-2.amazonaws.com/wp-content/uploads/2019/11/01230549/EKS8rylW4AA0gQX.jpg-large.jpg"
           target="_blank"
           aria-describedby="new-window-1"
           rel="noopener"
