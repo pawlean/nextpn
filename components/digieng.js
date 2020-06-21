@@ -41,10 +41,21 @@ function DigiEng() {
         .
       </p>
 
-      <LazyLoadImage
-        src={require("../public/images/main/grad_scheme.png?webp")}
-        alt="BT Graduate Scheme"
-      />
+      <picture>
+        <source
+          srcSet={require("../public/images/main/grad_scheme.png?webp")}
+          type="image/webp"
+        />
+        <source
+          srcSet={require("../public/images/main/grad_scheme.png")}
+          type="image/jpeg"
+        />
+
+        <LazyLoadImage
+          src={require("../public/images/main/grad_scheme.png?webp")}
+          alt="BT Graduate Scheme"
+        />
+      </picture>
 
       <h2>Projects</h2>
       <div className={styles.features}>

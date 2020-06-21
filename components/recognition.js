@@ -5,10 +5,20 @@ function Recognition() {
   return (
     <div className={styles.whitecontainer}>
       <h1>🏆 Recognition</h1>
-      <LazyLoadImage
-        src={require("../public/images/awards/Awards.png?webp")}
-        alt="Recognition"
-      />
+      <picture>
+        <source
+          srcSet={require("../public/images/awards/Awards.png?webp")}
+          type="image/webp"
+        />
+        <source
+          srcSet={require("../public/images/awards/Awards.png")}
+          type="image/jpeg"
+        />
+        <LazyLoadImage
+          src={require("../public/images/awards/Awards.png?webp")}
+          alt="Recognition"
+        />
+      </picture>
     </div>
   );
 }

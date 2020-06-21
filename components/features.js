@@ -12,10 +12,20 @@ function Features() {
       <div className="Interviews">
         <div className="featureimage">
           <span onClick={() => setShow(!show)}>
-            <LazyLoadImage
-              src={require("../public/images/Interviews.png?webp")}
-              alt="Interviews"
-            />
+            <picture>
+              <source
+                srcSet={require("../public/images/Interviews.png?webp")}
+                type="image/webp"
+              />
+              <source
+                srcSet={require("../public/images/Interviews.png")}
+                type="image/jpeg"
+              />
+              <LazyLoadImage
+                src={require("../public/images/Interviews.png?webp")}
+                alt="Interviews"
+              />
+            </picture>
           </span>
           {show && (
             <div className="InterviewBlock">
@@ -105,10 +115,20 @@ function Features() {
         </div>
         <div className="featureimage">
           <span onClick={() => setShow_pod(!show_podcast)}>
-            <LazyLoadImage
-              src={require("../public/images/podcast.png?webp")}
-              alt="Podcast"
-            />
+            <picture>
+              <source
+                srcSet={require("../public/images/podcast.png?webp")}
+                type="image/webp"
+              />
+              <source
+                srcSet={require("../public/images/podcast.png")}
+                type="image/jpeg"
+              />
+              <LazyLoadImage
+                src={require("../public/images/podcast.png?webp")}
+                alt="Podcast"
+              />
+            </picture>
           </span>
           {show_podcast && (
             <div className="InterviewBlock">
@@ -178,10 +198,20 @@ function Features() {
         </div>
         <div className="featureimage">
           <span onClick={() => setShow_other(!show_other)}>
-            <LazyLoadImage
-              src={require("../public/images/other.png?webp")}
-              alt="Other"
-            />
+            <picture>
+              <source
+                srcSet={require("../public/images/other.png?webp")}
+                type="image/webp"
+              />
+              <source
+                srcSet={require("../public/images/other.png")}
+                type="image/jpeg"
+              />
+              <LazyLoadImage
+                src={require("../public/images/other.png?webp")}
+                alt="Other"
+              />
+            </picture>
           </span>
           {show_other && (
             <div className="InterviewBlock">

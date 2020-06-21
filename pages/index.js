@@ -93,11 +93,21 @@ export default function Home() {
       </Head>
 
       <main>
-        <img
-          src={require("../public/images/PaulineNarvas.jpg?webp")}
-          className="profile"
-          alt="A photo of Pauline Narvas"
-        />
+        <picture>
+          <source
+            srcSet={require("../public/images/PaulineNarvas.jpg?webp")}
+            type="image/webp"
+          />
+          <source
+            srcSet={require("../public/images/PaulineNarvas.jpg")}
+            type="image/jpeg"
+          />
+          <img
+            src={require("../public/images/PaulineNarvas.jpg?webp")}
+            alt="A photo of Pauline Narvas"
+            className="profile"
+          />
+        </picture>
 
         <h1 className="title">Hi, I'm Pauline.</h1>
         <p className="description">
