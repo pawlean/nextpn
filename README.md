@@ -13,7 +13,7 @@ This did the job, but as I started learning more about other frameworks like Rea
 
 # Blog Post
 
-Coming soon - if you're interested in the details and thought process behind this, stay tuned!
+Read about how I rebuilt my portfolio: https://pawlean.com/2020/06/25/rebuilding-with-next-js-vercel/
 
 # Feedback
 
