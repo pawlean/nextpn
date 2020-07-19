@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function DigiEng() {
   return (
     <div className={styles.whitecontainer}>
-      <h1>📱 Digital Engineering Graduate</h1>
+      <h1>📱 Site Reliability Engineer</h1>
       <p>
         In September 2018, I joined BT's exciting Graduate Scheme working in the
         Digital Engineering team. Lasting 2 years, this development programme
@@ -56,6 +56,10 @@ function DigiEng() {
           alt="BT Graduate Scheme"
         />
       </picture>
+      <p>
+        In July 2020, I rolled off the graduate scheme in July 2020 to become a
+        Site Reliability Engineer within BT Consumer Digital.
+      </p>
 
       <h2>Projects</h2>
       <div className={styles.features}>
