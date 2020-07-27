@@ -58,10 +58,10 @@ function DigiEng() {
       </picture>
       <p>
         After the graduate scheme, I decided that as my first permanent role,
-        I'd follow on the DevOps/Cloud path where I'll be contributing to
-        building the platform of the future. In July 2020, I rolled off the
-        scheme in July 2020 to become a Site Reliability Engineer within BT
-        Consumer Digital. 🚀
+        I'd follow on the DevOps/Cloud path. In July 2020, I rolled off the
+        scheme to become a Site Reliability Engineer within BT Consumer Digital
+        to contribute to building the platform of the future that is secure,
+        cost-efficient, reliable and performant! 🚀
       </p>
 
       <h2>Projects</h2>
