@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Pauline Narvas is a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+          content="Pauline Narvas is a enthusiastic techie, Site Reliability Engineer, Community Builder, Speaker and Creator."
         ></meta>
         <meta
           property="og:title"
@@ -45,7 +45,7 @@ export default function Home() {
         <meta property="og:image:height" content="353" />
         <meta
           property="og:description"
-          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+          content="I'm a enthusiastic techie, Site Reliability Engineer, Community Builder, Speaker and Creator."
         />
         <meta name="viewport" content="width=device-width" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -57,7 +57,7 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content="I'm a enthusiastic techie, Digital Engineering Graduate, Community Builder, Speaker and Creator."
+          content="I'm a enthusiastic techie, Site Reliability Engineer, Community Builder, Speaker and Creator."
         />
         <meta
           name="twitter:image"
