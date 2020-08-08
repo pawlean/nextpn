@@ -134,10 +134,6 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
-                  title: "The Baby Developer Show",
-                  link: "https://www.twitch.tv/videos/618752399",
-                },
-                {
                   title: "Game Quitters Gaming the System Podcast",
                   link:
                     "https://anchor.fm/gaming-the-system/episodes/027---How-Pauline-Narvas-Overcame-Gaming-Addiction-to-Become-a-Full-Time-Programmer--Speaker--and-Inspirational-Figure-ea8a32",
@@ -217,8 +213,12 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
-                  title: "VonageDevs The Late Night Build Twtitch Stream",
+                  title: "VonageDevs The Late Night Build Twitch Stream",
                   link: "hhttps://www.twitch.tv/videos/703394377",
+                },
+                {
+                  title: "The Baby Developer Show",
+                  link: "https://www.twitch.tv/videos/618752399",
                 },
                 {
                   title: "#Diversity30",
