@@ -182,6 +182,11 @@ function Creator() {
       <div className={styles.features}>
         {[
           {
+            title: "Youper",
+            image: "images/projects/Youper.png",
+            link: "https://www.youtube.com/watch?v=Sm1aiiqXnlw",
+          },
+          {
             title: "International Women's Day 2018",
             image: "images/projects/IWD2018.png",
             link: "https://youtu.be/8wo5Y4l3Vpc",

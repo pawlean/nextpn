@@ -214,7 +214,7 @@ function Features() {
               {[
                 {
                   title: "VonageDevs The Late Night Build Twitch Stream",
-                  link: "hhttps://www.twitch.tv/videos/703394377",
+                  link: "https://www.twitch.tv/videos/703394377",
                 },
                 {
                   title: "The Baby Developer Show",
