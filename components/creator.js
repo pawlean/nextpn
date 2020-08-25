@@ -128,7 +128,7 @@ function Creator() {
       </p>
 
       <p>
-        I've also branched out onto{" "}
+        I also post videos on{" "}
         <a
           href="https://YouTube.com/PaulineNarvas/"
           target="_blank"
@@ -142,7 +142,21 @@ function Creator() {
             className="external"
           />
         </a>{" "}
-        and have worked with different people on communicating messages across
+        , create{" "}
+        <a
+          href="https://podcast.pawlean.com"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          podcasts{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>
+        , and have worked with different people on communicating messages across
         to my global auidence. For example, I built{" "}
         <a
           href="https://inspiringfigures.co"
@@ -171,7 +185,7 @@ function Creator() {
             "Video Editing",
             "Social media",
             "SEO",
-            "Creating podcasts",
+            "Podcast creation",
             "Blogging",
           ].map((skill) => (
             <li key={skill}>{skill}</li>
@@ -181,6 +195,11 @@ function Creator() {
       <h2>Projects</h2>
       <div className={styles.features}>
         {[
+          {
+            title: "#ShefUniGrad 2020",
+            image: "images/projects/UniGrad2020.png",
+            link: "https://www.youtube.com/watch?v=K4LcbZbDwgk",
+          },
           {
             title: "Youper",
             image: "images/projects/Youper.png",
