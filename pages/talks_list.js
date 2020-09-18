@@ -3,8 +3,10 @@ function Talks_List() {
     <div>
       <div className="container">
         <div className="speaking-list">
-          <h1>Previous Talks Full List</h1>
-          <img src="../public/images/Speaking.png" />
+          <h1>Full List of Previous Talks</h1>
+          <div className="img">
+            <img src="/images/Speaking.png" />
+          </div>
           <p className="key">
             <strong>Key:</strong> ⚡️ = Lightning Talk | 🎤 Conference Talk | 👯‍♀️
             Panel Talk | 🛠 Workshop | 🌍 Remote
@@ -240,13 +242,53 @@ function Talks_List() {
       </div>
 
       <style jsx>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
+        .container {
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+          padding-top: 90px;
+          width: 100%;
         }
-        * {
-          box-sizing: border-box;
+        .speaking-list {
+          max-width: 900px;
+          margin: 0 auto;
+          text-align: justify;
+          line-height: 1.5rem;
+        }
+        .key {
+          border: 2px solid #a47da4;
+          border-radius: 5px;
+          padding: 10px;
+          text-align: center;
+          margin-bottom: 50px;
+        }
+        .date {
+          text-transform: uppercase;
+          color: grey;
+          font-size: 12px;
+        }
+        p {
+          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+            sans-serif;
+          margin: 15px;
+        }
+        h1 {
+          text-align: center;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+        }
+        a:hover {
+          color: #a47da4;
+          text-decoration: underline;
+        }
+        .img {
+          height: auto;
+        }
+        img {
+          max-width: 900px;
         }
         .goback {
           margin: 0 auto;
@@ -266,42 +308,6 @@ function Talks_List() {
           text-decoration: underline;
           border-bottom: 0px;
           color: #fff;
-        }
-        .container {
-          margin: 0 auto;
-          display: flex;
-          align-items: center;
-          margin-top: 90px;
-        }
-        .key {
-          border: 2px solid #a47da4;
-          border-radius: 5px;
-          padding: 10px;
-          text-align: center;
-          margin-bottom: 50px;
-        }
-        .date {
-          text-transform: uppercase;
-          color: grey;
-          font-size: 12px;
-        }
-        .speaking-list {
-          margin: 0 auto;
-          text-align: justify;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-        h1 {
-          text-align: center;
-        }
-        a {
-          color: black;
-          text-decoration: none;
-        }
-        a:hover {
-          color: #a47da4;
-          text-decoration: underline;
         }
       `}</style>
     </div>
