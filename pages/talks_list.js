@@ -197,6 +197,20 @@ function Talks_List() {
               date: "December 2017",
             },
             {
+              talk_name: "GitHub Field Day - Building up Hype on social media",
+              link:
+                "https://www.youtube.com/watch?v=ykWMcAygpSw&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=9&t=0s",
+              emoji: "🛠",
+              date: "December 2017",
+            },
+            {
+              talk_name: "GitHub Field Day - The importance of self-care",
+              link:
+                "https://www.youtube.com/watch?v=oTzvijjOA3U&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=10&t=0s",
+              emoji: "🛠",
+              date: "December 2017",
+            },
+            {
               talk_name: "Sheffield Ruby User Group - Building Communities",
               link: "https://pawlean.com/2017/10/13/public-speaking-1/",
               emoji: "⚡️",
