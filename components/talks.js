@@ -7,6 +7,11 @@ function Talks() {
       <span onClick={() => setShow(!show)}>
         <button>Previous talks &#10549;</button>
       </span>
+      <span className="fulltalks">
+        <a href="/talks_list">
+          <button>Full list →</button>
+        </a>
+      </span>
       {show && (
         <div className="talksgroup">
           {[
@@ -96,6 +101,11 @@ function Talks() {
 
       <style jsx>
         {`
+          .fulltalks {
+            width: 200px;
+            padding-left: 20px;
+            margin: 0 auto;
+          }
           button {
             background-color: #a47da4;
             padding: 20px;
