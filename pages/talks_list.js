@@ -220,7 +220,7 @@ function Talks_List() {
               date: "August 2017",
             },
           ].map((one_talk) => (
-            <div>
+            <p>
               <a
                 href={one_talk.link}
                 target="_blank"
@@ -228,12 +228,10 @@ function Talks_List() {
                 rel="noopener"
                 key={one_talk.link}
               >
-                <p>
-                  {one_talk.emoji} <span className="date">{one_talk.date}</span>{" "}
-                  - <strong>{one_talk.talk_name}</strong> {one_talk.location}
-                </p>
+                {one_talk.emoji} <span className="date">{one_talk.date}</span> -{" "}
+                <strong>{one_talk.talk_name}</strong> {one_talk.location}
               </a>
-            </div>
+            </p>
           ))}
           <p className="goback">
             <a href="/">← Return to main page</a>
@@ -251,8 +249,9 @@ function Talks_List() {
         }
         .speaking-list {
           margin: 0 auto;
-          text-align: justify;
+          text-align: center;
           line-height: 1.5rem;
+          overflow-x: auto;
         }
         .key {
           border: 2px solid #a47da4;
@@ -270,7 +269,11 @@ function Talks_List() {
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
             Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
             sans-serif;
-          margin: 15px;
+          max-width: 560px;
+          margin: 0 auto;
+          text-align: justify;
+          line-height: 1.5rem;
+          margin-bottom: 15px;
         }
         h1 {
           text-align: center;
