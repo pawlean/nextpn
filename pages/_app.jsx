@@ -6,6 +6,7 @@ import {
   GitHub,
 } from "../components/socialmedia";
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
+import "../components/index.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -71,6 +72,9 @@ function MyApp({ Component, pageProps }) {
 
       <style jsx>
         {`
+          body {
+            margin: 0px;
+          }
           .social {
             float: right;
             margin: 10px;
