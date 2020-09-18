@@ -250,7 +250,6 @@ function Talks_List() {
           width: 100%;
         }
         .speaking-list {
-          max-width: 900px;
           margin: 0 auto;
           text-align: justify;
           line-height: 1.5rem;
