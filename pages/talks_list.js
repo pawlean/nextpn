@@ -289,6 +289,7 @@ function Talks_List() {
         }
         img {
           max-width: 900px;
+          border: 10px solid #a47da4;
         }
         .goback {
           margin: 0 auto;
