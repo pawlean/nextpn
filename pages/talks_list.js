@@ -4,6 +4,7 @@ function Talks_List() {
       <div className="container">
         <div className="speaking-list">
           <h1>Previous Talks Full List</h1>
+          <img src="../public/images/Speaking.png" />
           <p className="key">
             <strong>Key:</strong> ⚡️ = Lightning Talk | 🎤 Conference Talk | 👯‍♀️
             Panel Talk | 🛠 Workshop | 🌍 Remote
