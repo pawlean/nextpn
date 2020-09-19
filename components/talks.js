@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Head from "next/head";
 
 function Talks() {
   const [show, setShow] = useState(false);

@@ -1,8 +1,90 @@
 import styles from "../components/layout.module.scss";
+import Head from "next/head";
 
 function Talks_List() {
   return (
     <div>
+      <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-105893238-1"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag() { dataLayer.push(arguments); }
+              gtag('js', new Date());
+              gtag('config', 'UA-105893238-1');
+          `,
+          }}
+        />
+        <meta
+          name="description"
+          content="A full list of previous talks presented by Pauline Narvas."
+        ></meta>
+        <meta
+          property="og:title"
+          content="Pauline P. Narvas | Talks by Pauline"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://paulinenarvas.com/speaking-list"
+        />
+        <meta
+          property="og:image"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/talks_by_pauline.png"
+        />
+        <meta property="og:image:width" content="677" />
+        <meta property="og:image:height" content="353" />
+        <meta
+          property="og:description"
+          content="A full list of previous talks presented by Pauline Narvas."
+        />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@paulienuh" />
+        <meta name="twitter:creator" content="@paulienuh" />
+        <meta
+          name="twitter:title"
+          content="Pauline P. Narvas | Talks by Pauline"
+        />
+        <meta
+          name="twitter:description"
+          content="A full list of previous talks presented by Pauline Narvas."
+        />
+        <meta
+          name="twitter:image"
+          content="https://pawlean.s3.eu-west-2.amazonaws.com/talks_by_pauline.png"
+        />
+        <meta name="twitter:image:alt" content="Pauline P. Narvas" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#a47da4" />
+        <meta name="msapplication-TileColor" content="#603cba" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <title>Pauline P. Narvas | Talks by Pauline</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
       <div className={styles.whitecontainer}>
         <div className="speaking-list">
           <h1>Full List of Previous Talks</h1>
