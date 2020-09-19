@@ -1,7 +1,9 @@
+import styles from "../components/layout.module.scss";
+
 function Talks_List() {
   return (
     <div>
-      <div className="container">
+      <div className={styles.whitecontainer}>
         <div className="speaking-list">
           <h1>Full List of Previous Talks</h1>
           <div className="img">
@@ -240,25 +242,12 @@ function Talks_List() {
       </div>
 
       <style jsx>{`
-        .container {
-          margin: 0 auto;
-          display: flex;
-          align-items: center;
-          padding-top: 90px;
-          width: 100%;
-        }
         .speaking-list {
+          padding-top: 50px;
           margin: 0 auto;
           text-align: center;
           line-height: 1.5rem;
           overflow-x: auto;
-        }
-        .key {
-          border: 2px solid #a47da4;
-          border-radius: 5px;
-          padding: 10px;
-          text-align: center;
-          margin-bottom: 50px;
         }
         .date {
           text-transform: uppercase;
@@ -286,8 +275,10 @@ function Talks_List() {
           color: #a47da4;
           text-decoration: underline;
         }
+
         .img {
           height: auto;
+          margin-bottom: 20px;
         }
         img {
           max-width: 900px;
@@ -311,6 +302,14 @@ function Talks_List() {
           text-decoration: underline;
           border-bottom: 0px;
           color: #fff;
+        }
+        .key {
+          background-color: #a47da4;
+          color: white;
+          border-radius: 5px;
+          padding: 10px;
+          text-align: center;
+          margin-bottom: 50px;
         }
       `}</style>
     </div>

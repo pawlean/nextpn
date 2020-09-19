@@ -8,7 +8,7 @@ function Talks() {
         <button>Previous talks &#10549;</button>
       </span>
       <span className="fulltalks">
-        <a href="/talks_list">
+        <a href="/speaking-list">
           <button>Full list →</button>
         </a>
       </span>
