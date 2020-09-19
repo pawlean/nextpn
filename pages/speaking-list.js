@@ -88,8 +88,7 @@ function Talks_List() {
           <p className={styles.key}>
             <strong>Key:</strong> ⚡️ = <em>Lightning Talk</em> | 🎤{" "}
             <em>Conference Talk</em> | 👯‍♀️
-            <em>Panel Talk</em>Panel Talk | 🛠 <em>Workshop</em> | 🌍{" "}
-            <em>Remote</em>
+            <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 🌍 <em>Remote</em>
           </p>
           {[
             {
