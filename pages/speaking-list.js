@@ -309,7 +309,7 @@ function Talks_List() {
                 key={one_talk.link}
               >
                 {one_talk.emoji} <span className="date">{one_talk.date}</span> -{" "}
-                <strong>{one_talk.talk_name}</strong> {one_talk.location}{" "}
+                {one_talk.talk_name} {one_talk.location}{" "}
                 <img
                   src="/images/main/external.svg"
                   alt="opens in new window"
