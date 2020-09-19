@@ -91,9 +91,11 @@ function Talks_List() {
           <div className="img">
             <img src="/images/Speaking.png" />
           </div>
-          <p className="key">
-            <strong>Key:</strong> ⚡️ = Lightning Talk | 🎤 Conference Talk | 👯‍♀️
-            Panel Talk | 🛠 Workshop | 🌍 Remote
+          <p className={styles.key}>
+            <strong>Key:</strong> ⚡️ = <em>Lightning Talk</em> | 🎤{" "}
+            <em>Conference Talk</em> | 👯‍♀️
+            <em>Panel Talk</em>Panel Talk | 🛠 <em>Workshop</em> | 🌍{" "}
+            <em>Remote</em>
           </p>
           {[
             {
@@ -313,7 +315,12 @@ function Talks_List() {
                 key={one_talk.link}
               >
                 {one_talk.emoji} <span className="date">{one_talk.date}</span> -{" "}
-                <strong>{one_talk.talk_name}</strong> {one_talk.location}
+                <strong>{one_talk.talk_name}</strong> {one_talk.location}{" "}
+                <img
+                  src="/images/main/external.svg"
+                  alt="opens in new window"
+                  className="external"
+                />{" "}
               </a>
             </p>
           ))}
@@ -345,24 +352,22 @@ function Talks_List() {
           text-align: justify;
           line-height: 1.5rem;
           margin-bottom: 15px;
+          margin-top: 20px;
+        }
+        a {
+          color: black;
+        }
+        a:hover {
+          color: #a47da4;
         }
         h1 {
           text-align: center;
         }
-        a {
-          color: black;
-          text-decoration: none;
-        }
-        a:hover {
-          color: #a47da4;
-          text-decoration: underline;
-        }
-
         .img {
           height: auto;
           margin-bottom: 20px;
         }
-        img {
+        .img img {
           max-width: 900px;
           border: 10px solid #a47da4;
         }
@@ -385,13 +390,9 @@ function Talks_List() {
           border-bottom: 0px;
           color: #fff;
         }
-        .key {
-          background-color: #a47da4;
-          color: white;
-          border-radius: 5px;
-          padding: 10px;
-          text-align: center;
-          margin-bottom: 50px;
+
+        .external {
+          width: 10px;
         }
       `}</style>
     </div>
