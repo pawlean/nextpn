@@ -23,10 +23,7 @@ function Talks_List() {
           name="description"
           content="A full list of previous talks presented by Pauline Narvas."
         ></meta>
-        <meta
-          property="og:title"
-          content="Pauline P. Narvas | Talks by Pauline"
-        />
+        <meta property="og:title" content="Talks by Pauline P. Narvas" />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
@@ -46,10 +43,7 @@ function Talks_List() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@paulienuh" />
         <meta name="twitter:creator" content="@paulienuh" />
-        <meta
-          name="twitter:title"
-          content="Pauline P. Narvas | Talks by Pauline"
-        />
+        <meta name="twitter:title" content="Talks by Pauline P. Narvas" />
         <meta
           name="twitter:description"
           content="A full list of previous talks presented by Pauline Narvas."
@@ -81,7 +75,7 @@ function Talks_List() {
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#ffffff" />
 
-        <title>Pauline P. Narvas | Talks by Pauline</title>
+        <title>Talks by Pauline P. Narvas</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
