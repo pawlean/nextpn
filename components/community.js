@@ -75,7 +75,22 @@ function Community() {
             className="external"
           />
         </a>{" "}
-        as a mentor to upskill young women into joining the industry.
+        as a mentor to upskill young women into joining the industry. In October
+        2020, I became a mentor for the 2 months{" "}
+        <a
+          href="https://www.codefirstgirls.org.uk/"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Code First: Girls Fellowship program{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>
+        .
       </p>
 
       <h2>Projects</h2>
