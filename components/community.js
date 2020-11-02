@@ -59,9 +59,9 @@ function Community() {
         together to events, workshops and hackathons.
       </p>
       <p>
-        In addition, in my role at BT, I am a part of the Gender Equality
-        Network (GEN) where I regularly push initiatives at our Leeds base. I
-        have also been involved in the{" "}
+        In addition, I am a part of the Gender Equality Network (GEN) at BT
+        where I regularly push initiatives at our Leeds base. I have also been
+        involved in the{" "}
         <a
           href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
           target="_blank"
@@ -75,8 +75,7 @@ function Community() {
             className="external"
           />
         </a>{" "}
-        as a mentor to upskill young women into joining the industry. In October
-        2020, I became a mentor for the 2 months{" "}
+        and{" "}
         <a
           href="https://www.codefirstgirls.org.uk/"
           target="_blank"
@@ -90,7 +89,7 @@ function Community() {
             className="external"
           />
         </a>
-        .
+        as a mentor to upskill young women into joining the industry.
       </p>
 
       <h2>Projects</h2>
