@@ -45,7 +45,7 @@ function Dev() {
             "Javascript",
             "jQuery",
             "React",
-            "Next.js",
+            "Nextjs",
             "PHP",
             "Python",
             "git",
@@ -53,6 +53,7 @@ function Dev() {
             "AWS",
             "Terraform",
             "Packer",
+            "VMWare CloudHealth",
             "Lambda",
             "Tailwind",
           ].map((skill) => (
@@ -74,7 +75,7 @@ function Dev() {
             title: "Pawlean.com",
             image: "images/projects/pawlean.png",
             link: "https://pawlean.com/",
-            description: "My personal blog built on NextJS, Headless CMS",
+            description: "My personal blog built on Nextjs, Headless CMS",
           },
           {
             title: "Inspiring Figures",
