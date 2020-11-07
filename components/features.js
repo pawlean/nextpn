@@ -31,7 +31,7 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
-                  title: "Raconteur: Women in STEM",
+                  title: "Raconteur: Women in STEM - Pauline Narvas",
                   link:
                     "https://www.raconteur.net/women-stem/tech-pauline-narvas/?utm_content=144848300&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9243189",
                 },
@@ -279,11 +279,7 @@ function Features() {
 
       <style jsx>{`
         .featureimage {
-          -webkit-filter: grayscale(100%);
           width: 300px;
-        }
-        .featureimage:hover {
-          -webkit-filter: grayscale(0%);
         }
         .Interviews {
           display: flex;
