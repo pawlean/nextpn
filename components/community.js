@@ -88,7 +88,7 @@ function Community() {
             alt="opens in new window"
             className="external"
           />
-        </a>
+        </a>{" "}
         as a mentor to upskill young women into joining the industry.
       </p>
 
