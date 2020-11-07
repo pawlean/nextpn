@@ -6,10 +6,10 @@ function DigiEng() {
     <div className={styles.whitecontainer}>
       <h1>📱 Site Reliability Engineer</h1>
       <p>
-        In September 2018, I joined BT's exciting Graduate Scheme working in the
-        Digital Engineering team. Lasting 2 years, this development programme
-        allows four 6 month long rotations across the different delivery teams
-        within BT Consumer Digital. Read about the start of
+        In September 2018, I joined BT's exciting 2 year Digital Engineering
+        graduate scheme. Throughout the 2 years, I had the opportunity to do
+        four 6 month rotations across the different delivery teams within BT
+        Consumer Digital Engineering. Read about the start of
         <a
           href="https://www.linkedin.com/pulse/week-1-start-my-digital-development-operations-pauline-p-narvas/"
           target="_blank"
@@ -24,7 +24,7 @@ function DigiEng() {
             className="external"
           />
         </a>
-        . You can also follow along my journey at BT{" "}
+        . You can also find detailed reflections of my time on the BT scheme{" "}
         <a
           href="https://pawlean.com/category/self-development/bt-graduate-scheme/"
           target="_blank"
@@ -41,27 +41,10 @@ function DigiEng() {
         .
       </p>
 
-      <picture>
-        <source
-          srcSet={require("../public/images/main/grad_scheme.png?webp")}
-          type="image/webp"
-        />
-        <source
-          srcSet={require("../public/images/main/grad_scheme.png")}
-          type="image/jpeg"
-        />
-
-        <LazyLoadImage
-          src={require("../public/images/main/grad_scheme.png?webp")}
-          alt="BT Graduate Scheme"
-        />
-      </picture>
       <p>
-        After the graduate scheme, I decided that as my first permanent role,
-        I'd follow on the DevOps/Cloud path. In July 2020, I rolled off the
-        scheme to become a Site Reliability Engineer within BT Consumer Digital
-        to contribute to building the platform of the future that is secure,
-        cost-efficient, reliable and performant! 🚀
+        I rolled off the scheme as a Site Reliability Engineer after the
+        graduate scheme - driving the development of the newly formed SRE team
+        and contributing to building our platform of the future! 🚀
       </p>
 
       <h2>Projects</h2>
