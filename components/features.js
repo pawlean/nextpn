@@ -31,6 +31,11 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
+                  title: "Raconteur: Women in STEM",
+                  link:
+                    "https://www.raconteur.net/women-stem/tech-pauline-narvas/?utm_content=144848300&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9243189",
+                },
+                {
                   title: "Womanthology Tech Feature",
                   link:
                     "https://www.womanthology.co.uk/from-a-degree-in-biomedical-sciences-to-teaching-myself-to-code-and-building-a-career-in-tech-pauline-narvas-site-reliability-engineer-at-bt/",
