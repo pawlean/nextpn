@@ -152,7 +152,6 @@ export default function Home() {
           margin: 0;
           padding-top: 10px;
           line-height: 1.15;
-          font-size: 2vmax;
           color: #000;
         }
         .title,
