@@ -45,6 +45,7 @@ function Dev() {
             "Javascript",
             "jQuery",
             "React",
+            "Tailwind",
             "Nextjs",
             "PHP",
             "Python",
@@ -55,7 +56,6 @@ function Dev() {
             "Packer",
             "VMWare CloudHealth",
             "Lambda",
-            "Tailwind",
           ].map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
