@@ -223,6 +223,10 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
+                  title: "Talking with... Series with Francesco Ciulla",
+                  link: "https://www.youtube.com/watch?v=4yrZJMxK_Gw",
+                },
+                {
                   title: "VonageDevs The Late Night Build Twitch Stream",
                   link: "https://www.twitch.tv/videos/703394377",
                 },
