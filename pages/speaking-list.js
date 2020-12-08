@@ -92,6 +92,15 @@ function Talks_List() {
           </p>
           {[
             {
+              talk_name:
+                "Challenges of Starting an SRE Team from Scratch in an Enterprise",
+              link:
+                "https://www.usenix.org/conference/srecon20americas/program",
+              emoji: "🎤",
+              date: "December 2020",
+              location: "🌍",
+            },
+            {
               talk_name: "Code First: Girls #CF2020 Careers Nav - BT",
               link:
                 "https://www.linkedin.com/posts/pnarvas_cf2020-careers-womenintech-activity-6711577456282759168-556f",

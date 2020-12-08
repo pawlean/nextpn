@@ -23,21 +23,36 @@ function Dev() {
         </a>{" "}
         which carries on to this day - continuing to bring my ideas to life by
         playing around with pixels on the internet. Taking my love for
-        technology and learning further, I took to the Clouds and became an{" "}
+        technology and learning further, I took to the Clouds and became AWS
+        Certified as a{" "}
         <a
-          href="https://pawlean.s3.eu-west-2.amazonaws.com/wp-content/uploads/2019/11/01230549/EKS8rylW4AA0gQX.jpg-large.jpg"
+          href="https://www.youracclaim.com/badges/d0028cfc-94d0-4eea-a0d8-ae3b4c74d122?source=linked_in_profile"
           target="_blank"
           aria-describedby="new-window-1"
           rel="noopener"
         >
-          AWS Certified Cloud Practitioner{" "}
+          Cloud Practitioner{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
             className="external"
           />
         </a>{" "}
-        in November 2019. I am familiar with:
+        (November 2019) and{" "}
+        <a
+          href="https://www.youracclaim.com/badges/d0028cfc-94d0-4eea-a0d8-ae3b4c74d122?source=linked_in_profile"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Solutions Architect Associate{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        (December 2020.) I am familiar with:
         <ul className={styles.skills}>
           {[
             "HTML",
@@ -52,10 +67,10 @@ function Dev() {
             "git",
             "Wordpress",
             "AWS",
+            "Lambda",
             "Terraform",
             "Packer",
             "VMWare CloudHealth",
-            "Lambda",
           ].map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
