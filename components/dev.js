@@ -40,7 +40,7 @@ function Dev() {
         </a>{" "}
         (November 2019) and{" "}
         <a
-          href="https://www.youracclaim.com/badges/d0028cfc-94d0-4eea-a0d8-ae3b4c74d122?source=linked_in_profile"
+          href=""
           target="_blank"
           aria-describedby="new-window-1"
           rel="noopener"
@@ -52,7 +52,7 @@ function Dev() {
             className="external"
           />
         </a>{" "}
-        (December 2020.) I am familiar with:
+        (December 2020) I am familiar with:
         <ul className={styles.skills}>
           {[
             "HTML",
