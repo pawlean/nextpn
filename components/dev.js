@@ -76,7 +76,10 @@ function Dev() {
           ))}
         </ul>
       </p>
-
+      <p>
+        Currently, I'm learning Kubernetes, Docker, improving my knowledge on
+        Linux and striving to become a better Engineer!
+      </p>
       <h2>Recent projects</h2>
       <div className="previouswork">
         {[
