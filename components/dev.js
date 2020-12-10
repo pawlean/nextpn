@@ -40,7 +40,7 @@ function Dev() {
         </a>{" "}
         (November 2019) and{" "}
         <a
-          href=""
+          href="https://www.youracclaim.com/badges/59c79515-c960-4c1b-8602-37534db3f89e/public_url"
           target="_blank"
           aria-describedby="new-window-1"
           rel="noopener"
