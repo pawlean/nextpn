@@ -4,12 +4,12 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Community() {
   return (
     <div className={styles.greycontainer}>
-      <h1>🛠 Community Builder & Diversity Advocate</h1>
+      <h1>🛠 Community Builder & Diversity in Tech Advocate</h1>
       <p>
         Passionate about creating a better environment for future engineers, I
         actively work with communities to help bridge the inequalities in the
         tech industry, focusing speficially on females and people of colour
-        representation. For over 3 years, I've proudly worked with{" "}
+        representation. For over 4 years, I've proudly worked with{" "}
         <a
           href="http://twitter.com/codefirstgirls"
           target="_blank"
