@@ -126,7 +126,7 @@ function DigiEng() {
           aria-describedby="new-window-1"
           rel="noopener"
         >
-          helped drove the newly formed SRE Team.{" "}
+          helped drive the newly formed SRE Team.{" "}
           <img
             src="/images/main/external.svg"
             alt="opens in new window"
