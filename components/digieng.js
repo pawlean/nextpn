@@ -4,8 +4,10 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function DigiEng() {
   return (
     <div className={styles.whitecontainer}>
-      <h1>📱 Site Reliability Engineer</h1>
+      <h1>🧩 DevOps Engineer</h1>
       <p>
+        <strong>Getting into Tech</strong>
+        <br />
         In September 2018, I joined BT's exciting 2 year Digital Engineering
         graduate scheme. Throughout the 2 years, I had the opportunity to do
         four 6 month rotations across the different delivery teams within BT
@@ -40,13 +42,6 @@ function DigiEng() {
         </a>
         .
       </p>
-
-      <p>
-        I rolled off the scheme as a Site Reliability Engineer after the
-        graduate scheme - driving the development of the newly formed SRE team
-        and contributing to building our platform of the future! 🚀
-      </p>
-
       <h2>Projects</h2>
       <div className={styles.features}>
         {[
@@ -120,6 +115,43 @@ function DigiEng() {
           </a>
         ))}
       </div>
+      <p>
+        <strong>Post-graduate scheme</strong>
+        <br />I rolled off the scheme as a Site Reliability Engineer where I
+        contributed to building Digital Engineering's platform of the future as
+        well as{" "}
+        <a
+          href="https://www.youtube.com/watch?v=r3b3Z4ieNrc"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          helped drove the newly formed SRE Team.{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+      </p>
+      <p>
+        In January 2021,{" "}
+        <a
+          href="https://pawlean.com/2020/12/17/leaving-my-first-tech-job"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          I was ready for my next challenge!{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        I joined Sky Betting & Gaming as a DevOps Engineer.
+      </p>
+
       <style jsx>
         {`
           .external {
