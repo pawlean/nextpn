@@ -70,7 +70,12 @@ function Dev() {
             "Lambda",
             "Terraform",
             "Packer",
+            "VMWare",
             "VMWare CloudHealth",
+            "Kubernetes",
+            "Akamai (CDN)",
+            "Chef",
+            "Docker",
           ].map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
