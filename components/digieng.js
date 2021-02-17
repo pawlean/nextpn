@@ -166,6 +166,7 @@ function DigiEng() {
           }
           .sbg {
             width: 45%;
+            border-radius: 2%;
           }
         `}
       </style>
