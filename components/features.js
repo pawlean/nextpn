@@ -31,6 +31,11 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
+                  title: "The Colectiv — Issue 03 (Page 12, VOX POPS)",
+                  link:
+                    "https://www.flipsnack.com/jbcoleuk/the-colectiv-issue-03.html",
+                },
+                {
                   title: "Raconteur: Women in STEM - Pauline Narvas",
                   link:
                     "https://www.raconteur.net/women-stem/tech-pauline-narvas/?utm_content=144848300&utm_medium=social&utm_source=linkedin&hss_channel=lcp-9243189",
