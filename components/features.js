@@ -227,11 +227,10 @@ function Features() {
           {show_other && (
             <div className="InterviewBlock">
               {[
-                {[
-                  {
-                    title: "The GirlsInScience Top 15",
-                    link: "http://girlsinscience.co.uk/the-girls-in-science-top-15/",
-                  },
+                {
+                  title: "The GirlsInScience Top 15",
+                  link: "https://www.youtube.com/watch?v=4yrZJMxK_Gw",
+                },
                 {
                   title: "Talking with... Series with Francesco Ciulla",
                   link: "https://www.youtube.com/watch?v=4yrZJMxK_Gw",
