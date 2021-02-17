@@ -151,11 +151,19 @@ function DigiEng() {
         </a>{" "}
         I joined Sky Betting & Gaming as a DevOps Engineer.
       </p>
+      <img
+        src="/images/linkedinposts.png"
+        alt="LinkedIn post on joining SBG"
+        className="sbg"
+      />
 
       <style jsx>
         {`
           .external {
             width: 10px;
+          }
+          .sbg {
+            width: 45%;
           }
         `}
       </style>
