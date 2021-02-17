@@ -1,7 +1,6 @@
 import styles from "./layout.module.scss";
 import Button from "./button";
 
-import { TwitterTweetEmbed } from "../node_modules/react-twitter-embed";
 import { LazyLoadComponent } from "react-lazy-load-image-component";
 function Hear() {
   return (
