@@ -229,7 +229,8 @@ function Features() {
               {[
                 {
                   title: "The GirlsInScience Top 15",
-                  link: "https://www.youtube.com/watch?v=4yrZJMxK_Gw",
+                  link:
+                    "http://girlsinscience.co.uk/the-girls-in-science-top-15/",
                 },
                 {
                   title: "Talking with... Series with Francesco Ciulla",
