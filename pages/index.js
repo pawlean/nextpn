@@ -95,15 +95,15 @@ export default function Home() {
       <main>
         <picture>
           <source
-            srcSet={require("../public/images/PaulineNarvas.jpg?webp")}
+            srcSet={require("../public/images/PaulineNarvas2021.jpg?webp")}
             type="image/webp"
           />
           <source
-            srcSet={require("../public/images/PaulineNarvas.jpg")}
+            srcSet={require("../public/images/PaulineNarvas2021.jpg")}
             type="image/jpeg"
           />
           <img
-            src={require("../public/images/PaulineNarvas.jpg?webp")}
+            src={require("../public/images/PaulineNarvas2021.jpg?webp")}
             alt="A photo of Pauline Narvas"
             className="profile"
           />

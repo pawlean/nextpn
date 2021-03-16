@@ -59,7 +59,7 @@ function Community() {
         together to events, workshops and hackathons.
       </p>
       <p>
-        In addition, I am a part of the Gender Equality Network (GEN) at BT
+        In addition, I was part of the Gender Equality Network (GEN) at BT
         where I regularly push initiatives at our Leeds base. I have also been
         involved in the{" "}
         <a
@@ -91,6 +91,8 @@ function Community() {
         </a>{" "}
         as a mentor to upskill young women into joining the industry.
       </p>
+      <p>I became a AWS Community Builder in 2021. As part of the programme,
+        I'll be sharing my knowledge through content on my blog and YouTube Channel, helping others in their own journey getting into AWS. </p>
 
       <h2>Projects</h2>
       <div className={styles.features}>
