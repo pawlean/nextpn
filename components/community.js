@@ -9,7 +9,10 @@ function Community() {
         Passionate about creating a better environment for future engineers, I
         actively work with communities to help bridge the inequalities in the
         tech industry, focusing speficially on females and people of colour
-        representation. For over 4 years, I've proudly worked with{" "}
+        representation. 
+        
+        </p>
+        <p><strong>Women in Tech - Code First: Girls & Diversity work</strong><br/>For over 4 years, I've proudly worked with{" "}
         <a
           href="http://twitter.com/codefirstgirls"
           target="_blank"
@@ -24,8 +27,42 @@ function Community() {
           />{" "}
         </a>
         to deliver coding community courses for young women.{" "}
+        I have also been
+        involved in the{" "}
+        <a
+          href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          furtHER program{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://www.codefirstgirls.org.uk/"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Code First: Girls Fellowship program{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        as a mentor to upskill young women into joining the industry.
       </p>
       <p>
+        In addition, I was part of the Gender Equality Network (GEN) at BT
+        where I regularly push initiatives at our Leeds base. 
+      </p>
+      <p><strong>Building communities - student groups</strong><br/>
         With diversity and inclusion at the core of my community work, I
         pioneered the{" "}
         <a
@@ -58,40 +95,8 @@ function Community() {
         committee, I led in bringing students from different backgrounds
         together to events, workshops and hackathons.
       </p>
-      <p>
-        In addition, I was part of the Gender Equality Network (GEN) at BT
-        where I regularly push initiatives at our Leeds base. I have also been
-        involved in the{" "}
-        <a
-          href="https://www.codefirstgirls.org.uk/bt--cfg-digital-intensive.html"
-          target="_blank"
-          aria-describedby="new-window-1"
-          rel="noopener"
-        >
-          furtHER program{" "}
-          <img
-            src="/images/main/external.svg"
-            alt="opens in new window"
-            className="external"
-          />
-        </a>{" "}
-        and{" "}
-        <a
-          href="https://www.codefirstgirls.org.uk/"
-          target="_blank"
-          aria-describedby="new-window-1"
-          rel="noopener"
-        >
-          Code First: Girls Fellowship program{" "}
-          <img
-            src="/images/main/external.svg"
-            alt="opens in new window"
-            className="external"
-          />
-        </a>{" "}
-        as a mentor to upskill young women into joining the industry.
-      </p>
-      <p>I became a AWS Community Builder in 2021. As part of the programme,
+      
+      <p><strong>Amazon Web Services (AWS) - Community Builders Program</strong><br/>I became a AWS Community Builder in 2021. As part of the programme,
         I'll be sharing my knowledge through content on my blog and YouTube Channel, helping others in their own journey getting into AWS. </p>
 
       <h2>Projects</h2>

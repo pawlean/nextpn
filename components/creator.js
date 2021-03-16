@@ -250,6 +250,20 @@ function Creator() {
         <h3>Key Achievements</h3>
         <ul>
           <li>Improved engagement from building a strong online presence</li>
+          <li>Over 800+ listens on my podcast,  
+          <a
+              href="https://podcast.pawlean.com"
+              target="_blank"
+              aria-describedby="new-window-1"
+              rel="noopener"
+            >
+              "a podcast by Pawlean"{" "}
+              <img
+                src="/images/main/external.svg"
+                alt="opens in new window"
+                className="external"
+              />
+            </a></li>
           <li>
             Being a positive brand ambassador for sponsored content with
             successful referrals{" "}
