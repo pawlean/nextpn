@@ -31,9 +31,9 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
-                  title: "The Colectiv — Issue 03 (Page 12, VOX POPS)",
+                  title: "No CS Degree - Pauline Narvas talks learning to code without a Computer Science degree",
                   link:
-                    "https://www.flipsnack.com/jbcoleuk/the-colectiv-issue-03.html",
+                    "https://www.nocsdegree.com/pauline-narvas-talks-learning-to-code-with-no-cs-degree/",
                 },
                 {
                   title: "Raconteur: Women in STEM - Pauline Narvas",
