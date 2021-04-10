@@ -6,8 +6,8 @@ function Speaker() {
     <div className={styles.greycontainer}>
       <h1>🎤 Speaker</h1>
       <p>
-        I began speaking at events in 2017, my goal was to inspire others to
-        reach for the stars in their career and beyond. 🚀
+        I started public speaking at events in 2017, my goal with every talk
+        that I do is to inspire and educate.
       </p>
       <div className="videoWrapper">
         <iframe
