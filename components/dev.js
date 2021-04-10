@@ -62,7 +62,6 @@ function Dev() {
             "React",
             "Tailwind",
             "Nextjs",
-            "PHP",
             "Python",
             "git",
             "Wordpress",
@@ -71,7 +70,6 @@ function Dev() {
             "Terraform",
             "Packer",
             "VMWare",
-            "VMWare CloudHealth",
             "Kubernetes",
             "Akamai (CDN)",
             "Chef",
@@ -129,6 +127,34 @@ function Dev() {
         ))}
       </div>
       <Button buttonLink="https://github.com/pawlean"></Button>
+
+      <h2>Technical Writings ✐</h2>
+
+      <div className={styles.technical_writings}>
+      <table>
+  <tr>
+    <th>Cloud Computing</th>
+    <th>Software Engineering</th> 
+  </tr>
+  <tr>
+    <td>‣ <a href="https://pawlean.com/2019/12/07/how-i-passed-my-aws-ccp-exam" >How I passed my AWS CCP Exam</a> </td>
+    <td>‣ <a href="https://pawlean.com/2020/08/10/my-favourite-tech-tools" >My favourite tech tools</a></td>
+    </tr>
+    <tr>
+    <td>‣ <a href="https://pawlean.com/2020/12/09/how-i-passed-my-aws-saa-exam" >How I passed my AWS SAA Exam</a> </td>
+    <td>‣ <a href="https://pawlean.com/2020/06/25/rebuilding-with-next-js-vercel" >Rebuilding my portfolio on Next.js / Vercel</a></td>
+    </tr>
+    <tr>
+    <td>‣ <a href="https://pawlean.com/2021/04/09/im-officially-an-aws-community-builder" >Becoming an AWS Community Builder</a> </td> 
+    <td>‣ <a href="https://pawlean.com/2019/08/06/building-pawlean-2-0" >Building 'Pawlean 2.0' using Next.js</a></td>
+     </tr>
+    <tr><td>‣ <a href="https://pawlean.com/2020/11/11/studying-for-60daysofcloud-compute" >AWS Compute Concepts</a> </td>
+    <td>‣ <a href="https://pawlean.com/2019/01/14/learning-to-code" >Learning to Code resources</a></td>
+    </tr>
+    <tr><td>‣ <a href="https://pawlean.com/2020/10/12/four-simple-ways-to-deploy-your-small-website" >4 simple ways to deploy your small website</a> </td></tr>
+    <tr><td>‣ <a href="https://pawlean.com/2020/07/15/how-i-use-aws-s3-to-host-images-on-my-blog" >How I use AWS S3 to host images on my blog</a> </td></tr>
+    </table>
+      </div>
       <style jsx>
         {`
           .previouswork {

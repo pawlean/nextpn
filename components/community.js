@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 function Community() {
   return (
     <div className={styles.greycontainer}>
-      <h1>🛠 Community Builder & Diversity in Tech Advocate</h1>
+      <h1>🛠 Community Builder & Diversity Advocate</h1>
       <p>
         Passionate about creating a better environment for future engineers, I
         actively work with communities to help bridge the inequalities in the

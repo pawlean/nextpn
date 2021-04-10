@@ -294,6 +294,7 @@ function Features() {
       <style jsx>{`
         .featureimage {
           width: 300px;
+          cursor: pointer;
         }
         .Interviews {
           display: flex;
