@@ -94,8 +94,7 @@ function Talks_List() {
             {
               talk_name:
                 "Challenges of Starting an SRE Team from Scratch in an Enterprise - SRECON20 Americas",
-              link:
-                "https://www.usenix.org/conference/srecon20americas/program",
+              link: "https://www.youtube.com/watch?v=r3b3Z4ieNrc",
               emoji: "🎤",
               date: "December 2020",
               location: "🌍",
