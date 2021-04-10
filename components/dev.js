@@ -308,6 +308,24 @@ function Dev() {
               </a>{" "}
             </td>
           </tr>
+          <tr>
+            <td>
+              ‣{" "}
+              <a
+                href="https://www.youtube.com/watch?v=r3b3Z4ieNrc"
+                target="_blank"
+                aria-describedby="new-window-1"
+                rel="noopener"
+              >
+                SRECON20 - Getting started with SRE{" "}
+                <img
+                  src="/images/main/external.svg"
+                  alt="opens in new window"
+                  className="external"
+                />
+              </a>{" "}
+            </td>
+          </tr>
         </table>
       </div>
       <style jsx>
