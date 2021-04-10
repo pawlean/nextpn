@@ -137,22 +137,82 @@ function Dev() {
     <th>Software Engineering</th> 
   </tr>
   <tr>
-    <td>‣ <a href="https://pawlean.com/2019/12/07/how-i-passed-my-aws-ccp-exam" >How I passed my AWS CCP Exam</a> </td>
-    <td>‣ <a href="https://pawlean.com/2020/08/10/my-favourite-tech-tools" >My favourite tech tools</a></td>
+    <td>‣ <a href="https://pawlean.com/2019/12/07/how-i-passed-my-aws-ccp-exam" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener" >How I passed my AWS CCP Exam <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td>
+    <td>‣ <a href="https://pawlean.com/2020/08/10/my-favourite-tech-tools" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">My favourite tech tools <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a></td>
     </tr>
     <tr>
-    <td>‣ <a href="https://pawlean.com/2020/12/09/how-i-passed-my-aws-saa-exam" >How I passed my AWS SAA Exam</a> </td>
-    <td>‣ <a href="https://pawlean.com/2020/06/25/rebuilding-with-next-js-vercel" >Rebuilding my portfolio on Next.js / Vercel</a></td>
+    <td>‣ <a href="https://pawlean.com/2020/12/09/how-i-passed-my-aws-saa-exam" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener" >How I passed my AWS SAA Exam <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td>
+    <td>‣ <a href="https://pawlean.com/2020/06/25/rebuilding-with-next-js-vercel" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener" >Rebuilding my portfolio on Next.js / Vercel <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a></td>
     </tr>
     <tr>
-    <td>‣ <a href="https://pawlean.com/2021/04/09/im-officially-an-aws-community-builder" >Becoming an AWS Community Builder</a> </td> 
-    <td>‣ <a href="https://pawlean.com/2019/08/06/building-pawlean-2-0" >Building 'Pawlean 2.0' using Next.js</a></td>
+    <td>‣ <a href="https://pawlean.com/2021/04/09/im-officially-an-aws-community-builder" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">Becoming an AWS Community Builder <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td> 
+    <td>‣ <a href="https://pawlean.com/2019/08/06/building-pawlean-2-0"target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener" >Building 'Pawlean 2.0' using Next.js <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a></td>
      </tr>
-    <tr><td>‣ <a href="https://pawlean.com/2020/11/11/studying-for-60daysofcloud-compute" >AWS Compute Concepts</a> </td>
-    <td>‣ <a href="https://pawlean.com/2019/01/14/learning-to-code" >Learning to Code resources</a></td>
+    <tr><td>‣ <a href="https://pawlean.com/2020/11/11/studying-for-60daysofcloud-compute" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">AWS Compute Concepts <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td>
+    <td>‣ <a href="https://pawlean.com/2019/01/14/learning-to-code" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">Learning to Code resources <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a></td>
     </tr>
-    <tr><td>‣ <a href="https://pawlean.com/2020/10/12/four-simple-ways-to-deploy-your-small-website" >4 simple ways to deploy your small website</a> </td></tr>
-    <tr><td>‣ <a href="https://pawlean.com/2020/07/15/how-i-use-aws-s3-to-host-images-on-my-blog" >How I use AWS S3 to host images on my blog</a> </td></tr>
+    <tr><td>‣ <a href="https://pawlean.com/2020/10/12/four-simple-ways-to-deploy-your-small-website" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">4 simple ways to deploy your small website <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td></tr>
+    <tr><td>‣ <a href="https://pawlean.com/2020/07/15/how-i-use-aws-s3-to-host-images-on-my-blog" target="_blank"
+            aria-describedby="new-window-1"
+            rel="noopener">How I use AWS S3 to host images on my blog <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          /></a> </td></tr>
     </table>
       </div>
       <style jsx>
