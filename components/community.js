@@ -102,9 +102,19 @@ function Community() {
         I'll be sharing my knowledge through content on my blog and YouTube Channel, helping others in their own journey getting into AWS. 
         </p>
 
-        <p><strong>Ladies in DevOps</strong><br/>I founded the Ladies in DevOps community in April 2021. It's a community geared for women in the DevOps/SRE/Cloud/Infra space. It’s a safe space for them to connect and network with others and bring about visibility of the exciting roles in the industry.
-        <br/>
-        On launch day, we had 150 community members join organically through social media platforms (Twitter, Instagram & LinkedIn) We now have a growing community of over 300+ members and some exciting partnerships and sponsorships to help women advance in their careers!
+        <p><strong>Ladies in DevOps</strong><br/>I founded the  <a
+          href="https://ladiesindevops.com/"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Ladies in DevOps{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a> community in April 2021. It's a community geared for women in the DevOps/SRE/Cloud/Infra space. It’s a safe space for them to connect and network with others and bring about visibility of the exciting roles in the industry.
         </p>
 
       <h2>Projects</h2>
@@ -226,6 +236,9 @@ function Community() {
                 className="external"
               />
             </a>
+          </li>
+          <li>
+            <strong>April 2021:</strong> On launch day of Ladies in DevOps, we had 150 community members join organically through social media platforms. We now have a growing community of over <strong>300+ members</strong> and some exciting partnerships and sponsorships to help women advance in their careers!
           </li>
         </ul>
       </div>
