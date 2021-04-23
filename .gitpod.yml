@@ -6,7 +6,7 @@ ports:
   - port: 3000
     onOpen: open-preview
 
-# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
+# Command to start on workspace startup 
 tasks:
-  - init: echo 'init script' # runs during prebuild
-    command: echo 'start script'
+  - init: npm install
+    command: npm start dev
