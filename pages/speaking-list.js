@@ -88,9 +88,17 @@ function Talks_List() {
           <p className={styles.key}>
             <strong>Key:</strong> ⚡️ = <em>Lightning Talk</em> | 🎤{" "}
             <em>Conference Talk</em> | 👯‍♀️
-            <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 🌍 <em>Remote</em>
+            <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 💪🏼 <em>Host</em> | 🌍 <em>Remote</em>
           </p>
           {[
+            {
+              talk_name:
+                "SBG Tech Fest 2021 - hosted 'Connect With' stream",
+              link: "",
+              emoji: "💪🏼",
+              date: "April 2021",
+              location: "🌍",
+            },
             {
               talk_name:
                 "Challenges of Starting an SRE Team from Scratch in an Enterprise - SRECON20 Americas",

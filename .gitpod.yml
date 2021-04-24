@@ -6,4 +6,4 @@ ports:
 # Command to start on workspace startup 
 tasks:
   - init: npm install
-    command: npm start dev
+    command: npm run dev

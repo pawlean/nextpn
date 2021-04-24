@@ -79,6 +79,12 @@ function Dev() {
           ))}
         </ul>
       </p>
+      <p>The "career path" that I'm working towards in the future is to work in the DevRel space or similar.<a
+          href="https://twitter.com/paulienuh/status/1378062094914965507"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        > I'm manifesting it for the future ✨</a> If you have any opportunities, get in touch!</p>
       <h2>Recent projects</h2>
       <div className="previouswork">
         {[
