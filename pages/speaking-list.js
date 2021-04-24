@@ -94,7 +94,7 @@ function Talks_List() {
             {
               talk_name:
                 "SBG Tech Fest 2021 - hosted 'Connect With' stream",
-              link: "",
+              link: "https://www.linkedin.com/posts/pnarvas_sbglife-techconf-sbgtechfest-activity-6791042054337126400-roF0",
               emoji: "💪🏼",
               date: "April 2021",
               location: "🌍",
