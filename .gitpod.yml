@@ -6,7 +6,6 @@ ports:
 # Command to start on workspace startup
 tasks:
   - init: npm install
-  - openIn: bottom
     command: npm run dev
   - openMode: tab-after
     command: echo Test
