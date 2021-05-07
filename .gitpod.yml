@@ -3,7 +3,10 @@ ports:
   - port: 3000
     onOpen: open-preview
 
-# Command to start on workspace startup 
+# Command to start on workspace startup
 tasks:
   - init: npm install
     command: npm run dev
+  - openIn: bottom
+    command: echo Test new tab
+  - openMode: tab-after
