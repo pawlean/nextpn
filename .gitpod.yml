@@ -8,4 +8,4 @@ tasks:
   - init: npm install
     command: npm run dev
   - openMode: tab-after
-    command: echo Test
+    command: echo for git
