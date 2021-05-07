@@ -10,7 +10,7 @@ This did the job, but as I started learning more about other frameworks like Rea
 - React
 - Sass / CSS modules
 - Vercel (for deployment)
-- Dev-environment-as-code  [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/pawlean/nextpn)
+- [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/pawlean/nextpn)
 
 # Blog Post
 
