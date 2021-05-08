@@ -325,6 +325,22 @@ function Dev() {
                                 />
                             </a>{" "}
                         </td>
+                        <td>
+                            ‣{" "}
+                            <a
+                                href="https://youtu.be/MmF70ZNj8hM"
+                                target="_blank"
+                                aria-describedby="new-window-1"
+                                rel="noopener"
+                            >Component-ing my Next.js project using gitpod
+                                {" "}
+                                <img
+                                    src="/images/main/external.svg"
+                                    alt="opens in new window"
+                                    className="external"
+                                />
+                            </a>{" "}
+                        </td>
                     </tr>
                     <tr>
                         <td>
