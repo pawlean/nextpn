@@ -360,6 +360,24 @@ function Dev() {
                             </a>{" "}
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            ‣{" "}
+                            <a
+                                href="https://pawlean.com/2021/05/14/building-my-website-as-a-service-waas-project/(opens in a new tab)"
+                                target="_blank"
+                                aria-describedby="new-window-1"
+                                rel="noopener"
+                            >
+                                Building my Website-as-a-Service (WaaS) project{" "}
+                                <img
+                                    src="/images/main/external.svg"
+                                    alt="opens in new window"
+                                    className="external"
+                                />
+                            </a>{" "}
+                        </td>
+                    </tr>
 
                 </table>
             </div>
