@@ -24,11 +24,22 @@ function Collab() {
           />
         </a>{" "}
       </p>
-    <p className="collab">
-    Interested in working together? <a href="/Pauline-Narvas-CV-2021.pdf"  target="_blank"
+      <p className="collab">
+        Interested in working together?{" "}
+        <a
+          href="/Pauline-Narvas-CV-2021.pdf"
+          target="_blank"
           aria-describedby="new-window-1"
-          rel="noopener" >Here's a copy of my CV!</a>
-    </p>
+          rel="noopener"
+        >
+          Here's a copy of my CV!{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>
+      </p>
 
       <style jsx>
         {`
