@@ -7,5 +7,4 @@ ports:
 tasks:
   - init: npm install && npm audit fix
     command: npm run dev
-  - openMode: tab-after
-    command: echo for git
+  - command: echo for git
