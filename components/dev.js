@@ -358,7 +358,7 @@ function Dev() {
                         <td>
                             ‣{" "}
                             <a
-                                href="https://pawlean.com/2021/05/14/building-my-website-as-a-service-waas-project/(opens in a new tab)"
+                                href="https://pawlean.com/2021/05/13/building-my-website-as-a-service-waas-project"
                                 target="_blank"
                                 aria-describedby="new-window-1"
                                 rel="noopener"
