@@ -88,12 +88,20 @@ function Talks_List() {
           <p className={styles.key}>
             <strong>Key:</strong> ⚡️ = <em>Lightning Talk</em> | 🎤{" "}
             <em>Conference Talk</em> | 👯‍♀️
-            <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 💪🏼 <em>Host</em> | 🌍 <em>Remote</em>
+            <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 💪🏼 <em>Host</em> | 🌍{" "}
+            <em>Remote</em>
           </p>
           {[
             {
               talk_name:
-                "SBG Tech Fest 2021 - hosted 'Connect With' stream",
+                "What I learnt from starting the 'Ladies in DevOps' community - Programmed in Pencil",
+              link: "https://www.linkedin.com/posts/pnarvas_sbglife-techconf-sbgtechfest-activity-6791042054337126400-roF0",
+              emoji: "⚡️",
+              date: "May 2021",
+              location: "🌍",
+            },
+            {
+              talk_name: "SBG Tech Fest 2021 - hosted 'Connect With' stream",
               link: "https://www.linkedin.com/posts/pnarvas_sbglife-techconf-sbgtechfest-activity-6791042054337126400-roF0",
               emoji: "💪🏼",
               date: "April 2021",
@@ -109,16 +117,14 @@ function Talks_List() {
             },
             {
               talk_name: "Code First: Girls #CF2020 Careers Nav - BT",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_cf2020-careers-womenintech-activity-6711577456282759168-556f",
+              link: "https://www.linkedin.com/posts/pnarvas_cf2020-careers-womenintech-activity-6711577456282759168-556f",
               emoji: "👯‍♀️",
               date: "September 2020",
               location: "🌍",
             },
             {
               talk_name: "Bright Network - BT",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_bepartofprogress-consumergrads-bt-activity-6711304729323962368-QLV_",
+              link: "https://www.linkedin.com/posts/pnarvas_bepartofprogress-consumergrads-bt-activity-6711304729323962368-QLV_",
               emoji: "🛠",
               date: "September 2020",
               location: "🌍",
@@ -126,8 +132,7 @@ function Talks_List() {
             {
               talk_name:
                 "Code First: Girls #CF2020 Future Stars - Switching to Tech",
-              link:
-                "https://twitter.com/thekimmykola/status/1301237078215274497",
+              link: "https://twitter.com/thekimmykola/status/1301237078215274497",
               emoji: "👯‍♀️",
               date: "September 2020",
               location: "🌍",
@@ -141,8 +146,7 @@ function Talks_List() {
             },
             {
               talk_name: "Leeds Library Tech Talk - Thoughts to Pixels",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_leeds-bypawlean-pawlean-activity-6672142065624719360-8Y8J",
+              link: "https://www.linkedin.com/posts/pnarvas_leeds-bypawlean-pawlean-activity-6672142065624719360-8Y8J",
               emoji: "🎤",
               date: "July 2020",
               location: "🌍",
@@ -150,8 +154,7 @@ function Talks_List() {
             {
               talk_name:
                 "YouGotThis From Home - The Breaking Point: Recovering from Burnout",
-              link:
-                "https://yougotthis.io/talks/breaking-point-recovering-from-burnout/",
+              link: "https://yougotthis.io/talks/breaking-point-recovering-from-burnout/",
               emoji: "🎤",
               date: "June 2020",
               location: "🌍",
@@ -159,8 +162,7 @@ function Talks_List() {
             {
               talk_name:
                 "ELEVATE programme, supported by BT - My journey into technology",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_bt-elevate-programme-careers-talk-by-pauline-activity-6664079383294279681-it47",
+              link: "https://www.linkedin.com/posts/pnarvas_bt-elevate-programme-careers-talk-by-pauline-activity-6664079383294279681-it47",
               emoji: "🎤",
               date: "June 2020",
               location: "🌍",
@@ -168,8 +170,7 @@ function Talks_List() {
             {
               talk_name:
                 "BCS South Yorkshire Branch - Mental Health Awareness Webinar",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_bepartofprogress-consumergrads-bt-activity-6711304729323962368-QLV_",
+              link: "https://www.linkedin.com/posts/pnarvas_bepartofprogress-consumergrads-bt-activity-6711304729323962368-QLV_",
               emoji: "🎤",
               date: "May 2020",
               location: "🌍",
@@ -177,8 +178,7 @@ function Talks_List() {
             {
               talk_name:
                 "WiTNotts - Thoughts to Pixels: The Impact of Blogging",
-              link:
-                "https://pawlean.com/2020/04/10/thoughts-to-pixels-the-impact-of-blogging/",
+              link: "https://pawlean.com/2020/04/10/thoughts-to-pixels-the-impact-of-blogging/",
               emoji: "🎤",
               date: "April 2020",
               location: "🌍",
@@ -186,8 +186,7 @@ function Talks_List() {
             {
               talk_name:
                 "BT International Women's Day - Why do we still need an International Women's Day in 2020?",
-              link:
-                "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
+              link: "https://www.linkedin.com/posts/pnarvas_internationalwomenday2020-iwd2020-womenintech-activity-6643091239837274112-01UB",
               emoji: "👯‍♀️",
               date: "March 2020",
             },
@@ -207,8 +206,7 @@ function Talks_List() {
             {
               talk_name:
                 "DWP Digital Voices - My non-linear journey to technology",
-              link:
-                "https://www.youtube.com/watch?v=5xhKTzmJtAs&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=7&t=0s",
+              link: "https://www.youtube.com/watch?v=5xhKTzmJtAs&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=7&t=0s",
               emoji: "🎤",
               date: "June 2019",
               location: "🌍",
@@ -221,15 +219,13 @@ function Talks_List() {
             },
             {
               talk_name: "BCS - Diversity in IT",
-              link:
-                "https://twitter.com/BCS_South_Yorks/status/1098654735463260160",
+              link: "https://twitter.com/BCS_South_Yorks/status/1098654735463260160",
               emoji: "🎤",
               date: "February 2019",
             },
             {
               talk_name: "Ladies of Code Leeds - My Breaking Point",
-              link:
-                "https://www.meetup.com/Ladies-of-Code-Leeds/events/257127632",
+              link: "https://www.meetup.com/Ladies-of-Code-Leeds/events/257127632",
               emoji: "🎤",
               date: "January 2019",
             },
@@ -242,8 +238,7 @@ function Talks_List() {
             {
               talk_name:
                 "Sheffield Women in Computer Science event - My journey into tech",
-              link:
-                "https://www.wherewomenwork.com/Career/1657/University-of-Sheffield-Women-in-Computer-Science",
+              link: "https://www.wherewomenwork.com/Career/1657/University-of-Sheffield-Women-in-Computer-Science",
               emoji: "🎤",
               date: "November 2018",
             },
@@ -256,8 +251,7 @@ function Talks_List() {
             },
             {
               talk_name: "Northern Power Futures - Building an Online Presence",
-              link:
-                "https://pawlean.com/2018/11/25/building-an-online-presence/",
+              link: "https://pawlean.com/2018/11/25/building-an-online-presence/",
               emoji: "🛠",
               date: "November 2018",
             },
@@ -283,8 +277,7 @@ function Talks_List() {
             },
             {
               talk_name: "SchaRR - Above the noise: Building an online voice",
-              link:
-                "https://pawlean.com/2017/12/04/public-speaking-%f0%9f%93%9d-2/",
+              link: "https://pawlean.com/2017/12/04/public-speaking-%f0%9f%93%9d-2/",
               emoji: "🎤",
               date: "December 2017",
             },
@@ -296,15 +289,13 @@ function Talks_List() {
             },
             {
               talk_name: "GitHub Field Day - Building up Hype on social media",
-              link:
-                "https://www.youtube.com/watch?v=ykWMcAygpSw&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=9&t=0s",
+              link: "https://www.youtube.com/watch?v=ykWMcAygpSw&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=9&t=0s",
               emoji: "🛠",
               date: "December 2017",
             },
             {
               talk_name: "GitHub Field Day - The importance of self-care",
-              link:
-                "https://www.youtube.com/watch?v=oTzvijjOA3U&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=10&t=0s",
+              link: "https://www.youtube.com/watch?v=oTzvijjOA3U&list=PLkR4A7sk9JzbANRRuAwlTODpAlyDJkpqG&index=10&t=0s",
               emoji: "🛠",
               date: "December 2017",
             },
