@@ -95,7 +95,7 @@ function Talks_List() {
             {
               talk_name:
                 "What I learnt from starting the 'Ladies in DevOps' community - Programmed in Pencil",
-              link: "https://www.linkedin.com/posts/pnarvas_sbglife-techconf-sbgtechfest-activity-6791042054337126400-roF0",
+              link: "https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube",
               emoji: "⚡️",
               date: "May 2021",
               location: "🌍",
