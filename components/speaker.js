@@ -4,7 +4,7 @@ import Talks from "./talks";
 function Speaker() {
   return (
     <div className={styles.greycontainer}>
-      <h1>🎤 Speaker</h1>
+      <h1>🎤 International Speaker</h1>
       <p>
         I started public speaking at events in 2017, my goal with every talk
         that I do is to inspire and educate.
