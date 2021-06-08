@@ -93,6 +93,13 @@ function Talks_List() {
           </p>
           {[
             {
+              talk_name: "Code First Girls Fellowship Career Tech Talk",
+              link: "https://twitter.com/paulienuh/status/1401964331147960323?s=20",
+              emoji: "⚡️",
+              date: "June 2021",
+              location: "🌍",
+            },
+            {
               talk_name:
                 "What I learnt from starting the 'Ladies in DevOps' community - Programmed in Pencil",
               link: "https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube",
