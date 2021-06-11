@@ -86,12 +86,20 @@ function Talks_List() {
             <img src="/images/Speaking.png" />
           </div>
           <p className={styles.key}>
-            <strong>Key:</strong> ⚡️ = <em>Lightning Talk</em> | 🎤{" "}
-            <em>Conference Talk</em> | 👯‍♀️
+            <strong>Key:</strong> 🐥 = <em>Twitter Spaces</em> | ⚡️ ={" "}
+            <em>Lightning Talk</em> | 🎤 <em>Conference Talk</em> | 👯‍♀️
             <em>Panel Talk</em> | 🛠 <em>Workshop</em> | 💪🏼 <em>Host</em> | 🌍{" "}
             <em>Remote</em>
           </p>
           {[
+            {
+              talk_name:
+                "Tech Table Twitter Spaces - Getting into DevRel with Eddie Jaoude",
+              link: "https://twitter.com/eddiejaoude/status/1403249901279105029",
+              emoji: "🐥",
+              date: "June 2021",
+              location: "🌍",
+            },
             {
               talk_name: "Code First Girls Fellowship Career Tech Talk",
               link: "https://twitter.com/paulienuh/status/1401964331147960323?s=20",
@@ -101,9 +109,25 @@ function Talks_List() {
             },
             {
               talk_name:
+                "Tech Table Twitter Spaces - Communication with Francesco Ciulla",
+              link: "https://twitter.com/paulienuh/status/1389634777561669635",
+              emoji: "🐥",
+              date: "May 2021",
+              location: "🌍",
+            },
+            {
+              talk_name:
                 "What I learnt from starting the 'Ladies in DevOps' community - Programmed in Pencil",
               link: "https://www.youtube.com/watch?v=b96Jp1dVuRk&ab_channel=RVUYouTube",
               emoji: "⚡️",
+              date: "May 2021",
+              location: "🌍",
+            },
+            {
+              talk_name:
+                "Tech Table Twitter Spaces - Head in the Clouds with Rebekah & Hosanna",
+              link: "https://twitter.com/rkulidzan/status/1384955229024759813",
+              emoji: "🐥",
               date: "May 2021",
               location: "🌍",
             },
