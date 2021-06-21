@@ -95,7 +95,7 @@ function Talks_List() {
             {
               talk_name:
                 "Tech Table Twitter Spaces - Getting into DevRel with Eddie Jaoude",
-              link: "https://twitter.com/eddiejaoude/status/1403249901279105029",
+              link: "https://anchor.fm/eddiejaoude/episodes/Getting-into-DevRel-e135jqj",
               emoji: "🐥",
               date: "June 2021",
               location: "🌍",

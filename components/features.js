@@ -142,6 +142,10 @@ function Features() {
             <div className="InterviewBlock">
               {[
                 {
+                  title: "Getting into DevRel (Twitter Space Recording)",
+                  link: "https://anchor.fm/eddiejaoude/episodes/Getting-into-DevRel-e135jqj",
+                },
+                {
                   title: "Game Quitters Gaming the System Podcast",
                   link: "https://anchor.fm/gaming-the-system/episodes/027---How-Pauline-Narvas-Overcame-Gaming-Addiction-to-Become-a-Full-Time-Programmer--Speaker--and-Inspirational-Figure-ea8a32",
                 },
