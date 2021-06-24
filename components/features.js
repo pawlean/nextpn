@@ -141,7 +141,7 @@ function Features() {
           {show_podcast && (
             <div className="InterviewBlock">
               {[
-                          {
+                {
                   title: "From Front End to DevOps with Pete from NoCSDegree",
                   link: "https://share.transistor.fm/s/0520286d",
                 },
