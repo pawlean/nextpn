@@ -7,7 +7,20 @@ function DigiEng() {
       <h1>🍭 Senior Community Engineer </h1>
       <p>
         I’m part of the Developer & Community Success team over at Gitpod,
-        currently leading community engagement and development.
+        currently leading community engagement and development. Read more about{" "}
+        <a
+          href="https://pawlean.com/2021/07/02/as-of-today-im-building-communities-full-time"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          my journey joining Gitpod here.{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
       </p>
       <p>
         <img src="images/Frame_14.svg" />
