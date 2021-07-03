@@ -22,7 +22,37 @@ function Dev() {
           />
         </a>{" "}
         which carries on to this day - continuing to bring my ideas to life by
-        playing around with pixels on the internet.{" "}
+        playing around with pixels on the internet. Taking my love for
+        technology and learning further, I took to the Clouds and became AWS
+        Certified as a{" "}
+        <a
+          href="https://www.youracclaim.com/badges/d0028cfc-94d0-4eea-a0d8-ae3b4c74d122?source=linked_in_profile"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Cloud Practitioner{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        (November 2019) and{" "}
+        <a
+          href="https://www.youracclaim.com/badges/59c79515-c960-4c1b-8602-37534db3f89e/public_url"
+          target="_blank"
+          aria-describedby="new-window-1"
+          rel="noopener"
+        >
+          Solutions Architect Associate{" "}
+          <img
+            src="/images/main/external.svg"
+            alt="opens in new window"
+            className="external"
+          />
+        </a>{" "}
+        (December 2020)
       </p>
 
       <p>
@@ -145,6 +175,8 @@ function Dev() {
             className="external"
           />
         </a>
+      </p>
+      <p>
         <a
           href="https://pawlean.com/2020/12/17/leaving-my-first-tech-job"
           target="_blank"
@@ -159,39 +191,6 @@ function Dev() {
           />
         </a>{" "}
         and joined Sky Betting & Gaming as a DevOps Engineer.
-      </p>
-      <p>
-        {" "}
-        Taking my love for technology and learning further, I took to the Clouds
-        and became AWS Certified as a{" "}
-        <a
-          href="https://www.youracclaim.com/badges/d0028cfc-94d0-4eea-a0d8-ae3b4c74d122?source=linked_in_profile"
-          target="_blank"
-          aria-describedby="new-window-1"
-          rel="noopener"
-        >
-          Cloud Practitioner{" "}
-          <img
-            src="/images/main/external.svg"
-            alt="opens in new window"
-            className="external"
-          />
-        </a>{" "}
-        (November 2019) and{" "}
-        <a
-          href="https://www.youracclaim.com/badges/59c79515-c960-4c1b-8602-37534db3f89e/public_url"
-          target="_blank"
-          aria-describedby="new-window-1"
-          rel="noopener"
-        >
-          Solutions Architect Associate{" "}
-          <img
-            src="/images/main/external.svg"
-            alt="opens in new window"
-            className="external"
-          />
-        </a>{" "}
-        (December 2020)
       </p>
       <h2>Technologies that I'm familiar with</h2>
       <p>

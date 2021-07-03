@@ -254,7 +254,7 @@ function Community() {
             <strong>April 2021:</strong> On launch day of Ladies in DevOps, we
             had 150 community members join organically through social media
             platforms. We now have a growing community of over{" "}
-            <strong>450+ members</strong> and some exciting partnerships and
+            <strong>500+ members</strong> and some exciting partnerships and
             sponsorships to help women advance in their careers!
           </li>
         </ul>
