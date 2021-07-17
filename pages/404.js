@@ -2,7 +2,7 @@ export default function Custom404() {
   return (
     <div>
       <h1>
-        Oops - my bad! 🤷🏻‍♀️ Return to{" "}
+        Test! Oops - my bad! 🤷🏻‍♀️ Return to{" "}
         <a href="https://PaulineNarvas.com">PaulineNarvas.com</a>
       </h1>
       <style jsx>
